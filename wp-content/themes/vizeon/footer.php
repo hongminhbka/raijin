@@ -26,18 +26,6 @@ $copyright = vizeon_get_option('copyright_text', esc_html__('Copyright ', 'vizeo
 				get_template_part('templates/parts/footer-widgets');
 			} 
 		}?>
-		
-		<div class="copyright">
-			<div class="container">
-				<div class="copyright-content">
-						<div class="row">
-							<div class="col-sm-12 col-xs-12">
-								<?php echo esc_html($copyright); ?>
-							</div>
-						</div>	
-					</div>	
-			</div>
-		</div>
 		<div class="return-top default"><i class="gv-icon-194"></i></div>
 
 	</footer>
