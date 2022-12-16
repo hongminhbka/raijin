@@ -4,3 +4,7 @@ Description: Child theme for the Vizeon themes
 Author: gaviathemes
 Template: vizeon
 */
+
+.menu-footer-menu-raijin-viet-nam-container ul li{
+    width: 100%;
+}
