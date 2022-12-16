@@ -565,7 +565,7 @@ class GVAElement_Heading_Block extends GVAElement_Base {
 				'label' => __( 'Description Spacing', 'vizeon-themer' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
-					'size' => 60,
+					'size' => 20,
 				], 
 				'range' => [
 					'px' => [
