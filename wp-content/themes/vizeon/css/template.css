@@ -2643,14 +2643,11 @@ body .container-layout-content.container {
 .gva-search .control-search {
   width: 30px;
   height: 30px;
-  background: #E74D57;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.1);
   display: inline-block;
   text-align: center;
   font-size: 12px;
@@ -2658,7 +2655,7 @@ body .container-layout-content.container {
 }
 
 .gva-search .control-search .icon {
-  color: #fff;
+  color: #2E3A5B;
 }
 
 .gva-search .control-search.search-open i:before {
