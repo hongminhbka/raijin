@@ -2376,13 +2376,15 @@ body .container-layout-content.container {
 }
 
 #wp-footer {
-  background: #19212E;
-  color: #b3bbc6;
+  background: #222628;
+  color: #f4f4f4;
   font-size: 15px;
 }
 
 #wp-footer a {
-  color: #b3bbc6;
+  color: #f4f4f4;
+  font-weight: 400;
+  padding: 5px 0px;
 }
 
 #wp-footer a:hover {
@@ -2395,7 +2397,7 @@ body .container-layout-content.container {
 
 .copyright .copyright-content {
   text-align: center;
-  background: #19212E;
+  background: #222628;
   padding: 35px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
