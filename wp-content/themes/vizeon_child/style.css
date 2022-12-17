@@ -8,3 +8,7 @@ Template: vizeon
 .menu-footer-menu-raijin-viet-nam-container ul li{
     width: 100%;
 }
+
+.lien-he .gva-element-gva-call-to-action .gsc-call-to-action .sub-title {
+    min-height: 85px;
+}
