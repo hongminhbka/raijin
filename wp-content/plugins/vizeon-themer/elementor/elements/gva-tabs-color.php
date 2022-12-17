@@ -142,8 +142,8 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 					[
 						'tab_title' => __( 'Financial Advice', 'vizeon-themer' ),
 						'tab_content' => __( 'Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'elementor' ),
-						'tab_background_color' => '#E74D57',
-						'tab_color'	=> '#ffff'
+						'tab_background_color' => '#ffffff',
+						'tab_color'	=> '#596481'
 					],
 					[
 						'tab_title' => __( 'Gobal Solutions', 'vizeon-themer' ),
