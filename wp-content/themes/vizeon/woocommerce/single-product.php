@@ -125,7 +125,7 @@ extract($sidebar_config);
             </div>
             <div class=" row" style="justify-content: space-between;">
 
-               <div class="col-lg-3 col-md-6  col-sm-12">
+               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
                   <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color: '#2E3A5B'">
                      <span style="color: #2E3A5B">
                         Honda
@@ -133,20 +133,20 @@ extract($sidebar_config);
                   </button>
 
                </div>
-               <div class="col-lg-3 col-md-6  col-sm-12">
+               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
 
                   <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
                      <span style="color: #2E3A5B">
                         Yamaha
                      </span></button>
                </div>
-               <div class="col-lg-3 col-md-6  col-sm-12">
+               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
                   <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
                      <span style="color: #2E3A5B">
                         Piagio
                      </span></button>
                </div>
-               <div class="col-lg-3 col-md-6  col-sm-12">
+               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
 
                   <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
                      <span style="color: #2E3A5B">
