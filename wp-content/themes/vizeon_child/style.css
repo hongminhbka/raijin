@@ -12,3 +12,19 @@ Template: vizeon
 .lien-he .gva-element-gva-call-to-action .gsc-call-to-action .sub-title {
     min-height: 85px;
 }
+
+.lien-he .ecommerce {
+    border: 1px solid #E9EAEA;
+}
+.lien-he .shopee {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.lien-he .ecommerce .gva-element-gva-call-to-action .title{
+    color: #2e3a5b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
