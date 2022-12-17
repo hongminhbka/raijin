@@ -23,7 +23,7 @@ $tabs = apply_filters('woocommerce_product_tabs', array());
 $_count = 0;
 
 if (!empty($tabs)) : ?>
-	<div style="background-color: #2E3A5B; padding: 40px 0px ">
+	<!-- <div style="background-color: #2E3A5B; padding: 40px 0px ">
 		<div class="container" style="padding: 40px;">
 			<div style="font-family: 'Montserrat';
 				font-style: normal;
@@ -66,7 +66,7 @@ if (!empty($tabs)) : ?>
 			</div>
 		</div>
 
-	</div>
+	</div> -->
 
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
