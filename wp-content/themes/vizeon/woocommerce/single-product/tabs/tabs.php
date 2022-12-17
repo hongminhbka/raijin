@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Single Product tabs
  *
@@ -7,7 +8,7 @@
  * @version 2.4.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
+if (!defined('ABSPATH')) {
 	exit;
 }
 
@@ -17,32 +18,35 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Each tab is an array containing title, callback and priority.
  * @see woocommerce_default_product_tabs()
  */
-$tabs = apply_filters( 'woocommerce_product_tabs', array() );
+$tabs = apply_filters('woocommerce_product_tabs', array());
 
-$_count=0;
+$_count = 0;
 
-if ( ! empty( $tabs ) ) : ?>
+if (!empty($tabs)) : ?>
 
-	<div class="woocommerce-tabs clearfix tabs-left">
-		<div class="woocommerce-tabs-inner clear fix">
-			<div class="woocommerce-tab-product-nav">
-				<ul class="woocommerce-tab-product-info nav nav-tabs default clear-list">
-					<?php foreach ( $tabs as $key => $tab ) : ?>
-						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(( $_count == 0 ? ' active' : '' )); ?>">
-							<a data-toggle="tab" href="#tab-<?php echo esc_attr($key); ?>"><?php echo apply_filters( 'woocommerce_product_' . $key . '_tab_title', $tab['title'], $key ) ?></a>
-						</li>
-					<?php $_count++; endforeach; ?>
-				</ul>
-			</div>
-			<?php $_count=0; ?>
-			<div class="tab-content col-xs-12">
-				<?php foreach ( $tabs as $key => $tab ) : ?>
-					<div class="tab-pane<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr($key); ?>">
-						<?php call_user_func( $tab['callback'], $key, $tab ) ?>
-					</div>
-				<?php $_count++; endforeach; ?>
-			</div>
-		</div>	
+	<div class="woocommerce-tabs clearfix tabs-left container" style="background-color: #2E3A5B; padding: 20px 0px">
+		<div style="font-family: 'Montserrat';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 32px;
+				line-height: 40px;">
+			Bạn đang tìm sản phẩm cho xe gì
+		</div>
+		<div style="
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 24px;">
+			Raijin có đủ sản phẩm cho tất cả các dòng xe
+		</div>
+		<div class="d-flex justify-space-between">
+			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Honda</button>
+			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Yamaha</button>
+			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Piaggio</button>
+			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Xe hãng khác</button>
+		</div>
+
 	</div>
 
 <?php endif; ?>
