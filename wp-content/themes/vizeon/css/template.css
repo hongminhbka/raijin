@@ -6533,6 +6533,10 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   float: left;
 }
 
+.gsc-tabs-color .nav_tabs > li.active {
+  border-bottom: 2px solid #C40000;
+}
+
 @media (max-width: 991.98px) {
   .gsc-tabs-color .nav_tabs > li {
     width: 100%;

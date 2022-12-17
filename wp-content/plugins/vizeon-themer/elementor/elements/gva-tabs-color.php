@@ -130,6 +130,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 			[
 				'label' 		=> __( 'Tab Background Color', 'vizeon-themer' ),
 				'type' 		=> Controls_Manager::COLOR,
+				'default' => '#ffffff',
 				'selectors' =>	[
 					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'background: {{VALUE}};',
 				]
@@ -140,6 +141,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 			[
 				'label' 		=> __( 'Tab Color', 'vizeon-themer' ),
 				'type' 		=> Controls_Manager::COLOR,
+				'default' => '#596481',
 				'selectors' =>	[
 					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'color: {{VALUE}};',
 				]
@@ -182,7 +184,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'label' => __( 'Width Tab Item', 'vizeon-themer' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
-					'size' => 33,
+					'size' => 25,
 				],
 				'range' => [
 					'%' => [
