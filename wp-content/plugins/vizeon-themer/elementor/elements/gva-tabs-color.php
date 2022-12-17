@@ -132,7 +132,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'type' 		=> Controls_Manager::COLOR,
 				'default' => '#ffffff',
 				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'background: {{VALUE}};',
+					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'background: #ffffff;',
 				]
 			]
 		);
@@ -143,7 +143,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'type' 		=> Controls_Manager::COLOR,
 				'default' => '#596481',
 				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'color: {{VALUE}};',
+					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'color: #596481;',
 				]
 			]
 		);
