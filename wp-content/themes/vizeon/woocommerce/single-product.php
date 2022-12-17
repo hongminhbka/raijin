@@ -123,25 +123,37 @@ extract($sidebar_config);
 				">
                Raijin có đủ sản phẩm cho tất cả các dòng xe
             </div>
-            <div class="d-flex" style="justify-content: space-between;">
-               <button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color: '#2E3A5B'">
-                  <span style="color: #2E3A5B">
-                     Honda
-                  </span>
-               </button>
-               <button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">
-                  <span style="color: #2E3A5B">
-                     Yamaha
-                  </span></button>
-               <button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">
-                  <span style="color: #2E3A5B">
-                     Piagio
-                  </span></button>
-               <button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">
-                  <span style="color: #2E3A5B">
-                     Xe hãng khác
-                  </span>
-               </button>
+            <div class=" row" style="justify-content: space-between;">
+
+               <div class="col-lg-4  col-sm-6">
+                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color: '#2E3A5B'">
+                     <span style="color: #2E3A5B">
+                        Honda
+                     </span>
+                  </button>
+
+               </div>
+               <div class="col-lg-4  col-sm-6">
+
+                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
+                     <span style="color: #2E3A5B">
+                        Yamaha
+                     </span></button>
+               </div>
+               <div class="col-lg-4  col-sm-6">
+                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
+                     <span style="color: #2E3A5B">
+                        Piagio
+                     </span></button>
+               </div>
+               <div class="col-lg-4  col-sm-6">
+
+                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
+                     <span style="color: #2E3A5B">
+                        Xe hãng khác
+                     </span>
+                  </button>
+               </div>
             </div>
          </div>
 
