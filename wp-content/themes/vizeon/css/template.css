@@ -9675,7 +9675,16 @@ body.error404 .header-default {
 .wpcf7-form input[type*="submit"]{
   width: 100%;
 }
-
+.wpcf7-form select::after{
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #596481 transparent transparent transparent;
+}
 .wpcf7-form input[type*="email"]::-webkit-input-placeholder, .wpcf7-form input[type*="text"]::-webkit-input-placeholder {
   color: #747b86;
   font-weight: 400;
