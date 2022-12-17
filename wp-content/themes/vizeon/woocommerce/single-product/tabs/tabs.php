@@ -24,7 +24,7 @@ $_count = 0;
 
 if (!empty($tabs)) : ?>
 
-	<div class="woocommerce-tabs clearfix tabs-left container" style="background-color: #2E3A5B; padding: 20px 0px">
+	<div class="container" style="background-color: #2E3A5B; padding: 20px 0px">
 		<div>
 
 
