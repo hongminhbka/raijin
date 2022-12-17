@@ -1751,7 +1751,7 @@ table.variations a.reset_variations {
   font-size: 24px;
   font-weight: 400;
   color: #E74D57;
-  font-size: 24px ;
+  font-size: 24px !important ;
   margin: 18px 0 16px;
 }
 
