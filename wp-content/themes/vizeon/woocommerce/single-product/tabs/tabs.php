@@ -25,26 +25,32 @@ $_count = 0;
 if (!empty($tabs)) : ?>
 
 	<div class="woocommerce-tabs clearfix tabs-left container" style="background-color: #2E3A5B; padding: 20px 0px">
-		<div style="font-family: 'Montserrat';
+		<div>
+
+
+			<div style="font-family: 'Montserrat';
 				font-style: normal;
 				font-weight: 600;
 				font-size: 32px;
+				color: white;
 				line-height: 40px;">
-			Bạn đang tìm sản phẩm cho xe gì
-		</div>
-		<div style="
+				Bạn đang tìm sản phẩm cho xe gì
+			</div>
+			<div style="
 		font-family: 'Montserrat';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 16px;
-		line-height: 24px;">
-			Raijin có đủ sản phẩm cho tất cả các dòng xe
-		</div>
-		<div class="d-flex justify-space-between">
-			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Honda</button>
-			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Yamaha</button>
-			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Piaggio</button>
-			<button type="button" class="btn btn-lg" style="background-color: white; padding: 5px 15px">Xe hãng khác</button>
+		line-height: 24px;
+		color: white;">
+				Raijin có đủ sản phẩm cho tất cả các dòng xe
+			</div>
+			<div class="d-flex justify-space-between">
+				<button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color: '#2E3A5B'">Honda</button>
+				<button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">Yamaha</button>
+				<button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">Piaggio</button>
+				<button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color:'#2E3A5B'">Xe hãng khác</button>
+			</div>
 		</div>
 
 	</div>
