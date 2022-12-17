@@ -16,6 +16,12 @@ Template: vizeon
 .lien-he .ecommerce {
     border: 1px solid #E9EAEA;
 }
+
+.lien-he .content {
+    text-align: left;
+    padding-left: 15px;
+}
+
 .lien-he .shopee {
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
@@ -38,4 +44,11 @@ Template: vizeon
     color: #596481;    
     font-size: 14px;
     font-weight: 400;
+}
+
+.call-request-now-form .form-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2E3A5B;
 }
