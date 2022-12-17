@@ -1748,11 +1748,11 @@ table.variations a.reset_variations {
 }
 
 .single-product .entry-summary .price {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #E74D57;
   font-size: 24px !important ;
-  margin: 18px 0 16px;
+  margin: 0px 0 0px;
 }
 
 .single-product .entry-summary .price del {
