@@ -125,28 +125,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'show_label' => false,
 			]
 		);
-		$repeater->add_control(
-			'tab_background_color',
-			[
-				'label' 		=> __( 'Tab Background Color', 'vizeon-themer' ),
-				'type' 		=> Controls_Manager::COLOR,
-				'default' => '#ffffff',
-				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'background: #ffffff;',
-				]
-			]
-		);
-		$repeater->add_control(
-			'tab_color',
-			[
-				'label' 		=> __( 'Tab Color', 'vizeon-themer' ),
-				'type' 		=> Controls_Manager::COLOR,
-				'default' => '#596481',
-				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'color: #596481;',
-				]
-			]
-		);
+		
 		$this->add_control(
 			'tabs',
 			[
