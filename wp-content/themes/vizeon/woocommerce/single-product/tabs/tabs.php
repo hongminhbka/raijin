@@ -24,10 +24,8 @@ $_count = 0;
 
 if (!empty($tabs)) : ?>
 
-	<div style="background-color: #2E3A5B; padding: 20px 0px">
+	<div style="background-color: #2E3A5B; padding: 40px 0px " >
 		<div class="container" style="padding: 40px;">
-
-
 			<div style="font-family: 'Montserrat';
 				font-style: normal;
 				font-weight: 600;
@@ -37,12 +35,12 @@ if (!empty($tabs)) : ?>
 				Bạn đang tìm sản phẩm cho xe gì
 			</div>
 			<div style="
-		font-family: 'Montserrat';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 16px;
-		line-height: 24px;
-		color: white;">
+				font-family: 'Montserrat';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 16px;
+				line-height: 24px;
+				color: white;">
 				Raijin có đủ sản phẩm cho tất cả các dòng xe
 			</div>
 			<div class="d-flex justify-space-between">
