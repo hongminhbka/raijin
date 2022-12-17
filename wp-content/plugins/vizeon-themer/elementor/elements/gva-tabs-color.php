@@ -233,7 +233,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 			[
 				'label' => __( 'Active Color', 'vizeon-themer' ),
 				'type' => Controls_Manager::COLOR,
-				'default' => '#18212e',
+				'default' => '#C40000',
 				'selectors' => [
 					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li.active a' => 'color: {{VALUE}};',
 				],
