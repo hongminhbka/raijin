@@ -1757,7 +1757,8 @@ table.variations a.reset_variations {
 .single-product .entry-summary .price del {
   font-size: 16px;
   font-weight: 400;
-  color: #999 !important;
+  color: #E74D57 !important;
+  text-decoration: none !important;
 }
 
 .single-product .entry-summary .price ins {
