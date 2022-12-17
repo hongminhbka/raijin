@@ -24,8 +24,8 @@ $_count = 0;
 
 if (!empty($tabs)) : ?>
 
-	<div class="container" style="background-color: #2E3A5B; padding: 20px 0px">
-		<div>
+	<div style="background-color: #2E3A5B; padding: 20px 0px">
+		<div class="container" style="padding: 40px;">
 
 
 			<div style="font-family: 'Montserrat';
