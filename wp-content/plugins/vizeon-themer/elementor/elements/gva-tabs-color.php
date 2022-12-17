@@ -172,7 +172,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li' => 'width: {{SIZE}}%;',
+					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li' => 'width: 25%;',
 				],
 			]
 		);
