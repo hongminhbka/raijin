@@ -9662,14 +9662,15 @@ body.error404 .header-default {
 
 .wpcf7-form input[type*="email"], .wpcf7-form input[type*="text"] {
   width: 100%;
-  height: 68px;
-  padding: 0 15px;
+  height: 52px;
+  padding: 0 14px;
   margin-bottom: 2px;
   font-size: 15px;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #F0F0F0;
-  border: none;
+  background: #FFFFFF;
+  border: 1px solid #DBE0E6;
+  border-radius: 8px;
 }
 
 .wpcf7-form input[type*="email"]::-webkit-input-placeholder, .wpcf7-form input[type*="text"]::-webkit-input-placeholder {
