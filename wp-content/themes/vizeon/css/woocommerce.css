@@ -1915,6 +1915,7 @@ table.variations a.reset_variations {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   color: transparent;
+  display: none;
 }
 
 .single-product .product-single-inner a.compare:after {
