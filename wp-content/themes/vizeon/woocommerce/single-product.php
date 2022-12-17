@@ -123,7 +123,7 @@ extract($sidebar_config);
 				">
                Raijin có đủ sản phẩm cho tất cả các dòng xe
             </div>
-            <div class="d-flex justify-space-between">
+            <div class="d-flex" style="justify-content: space-between;">
                <button type="button" class="btn btn-lg" style="background-color: white; width: 262px ; height:auto; color: '#2E3A5B'">
                   <span style="color: #2E3A5B">
                      Honda
