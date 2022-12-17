@@ -1752,7 +1752,7 @@ table.variations a.reset_variations {
   font-weight: 400;
   color: #E74D57;
   font-size: 24px !important ;
-  margin: 0px 0 0px;
+  margin: 0px 0px;
 }
 
 .single-product .entry-summary .price del {
