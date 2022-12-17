@@ -61,12 +61,12 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 			<div class="column col-md-6 col-sm-12 col-xs-12 summary entry-summary">
 				<div class="column-inner clearfix">
-					<div class="menu-single-product">
+					<!-- <div class="menu-single-product">
 						<?php
 							next_post_link( '%link',  '<i class="gv-icon-158"></i>' , true, array(), 'product_cat' );
 							previous_post_link( '%link',  '<i class="gv-icon-159"></i>', true, array(), 'product_cat' );
 						?>
-					</div>
+					</div> -->
 					<?php
 						/**
 						 * woocommerce_single_product_summary hook
