@@ -72,10 +72,8 @@ $classes[] = 'product-block product';
             ?>
          </div>
 
-         <div class="shop-loop-actions ">
-            <div class="add-to-cart">
-               <?php woocommerce_template_loop_add_to_cart(); ?>
-            </div>
+         <div class=" ">
+            <!-- <?php woocommerce_template_loop_add_to_cart(); ?> -->
             <?php
             /**
              * woocommerce_after_shop_loop_item hook
@@ -91,7 +89,8 @@ $classes[] = 'product-block product';
             }
             ?>
 
-            <div class="quickview">
+            <div class="">
+               Xem chi tiết
                <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn-quickview product_type_<?php echo esc_attr($product->get_type()) ?>"><span class="gv-icon-41"></span></a>
             </div>
          </div>
