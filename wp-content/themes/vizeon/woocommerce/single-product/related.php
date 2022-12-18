@@ -32,13 +32,13 @@ $woocommerce_loop['columns'] = $columns;
 
 if ($products->have_posts()) : ?>
 
-	<div class="widget related products">
+	<div class="widget related products" style="background-image: url('./bg.jpg')">
 		<div class="container">
 			<h2 class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></h2>
 		</div>
 		<?php //woocommerce_product_loop_start(); 
 		?>
-		<div class="products carousel-view count-row-1 container" style="background-image: url('bg.jpg')">
+		<div class="products carousel-view count-row-1 container">
 			<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true">
 				<?php while ($products->have_posts()) : $products->the_post(); ?>
 
