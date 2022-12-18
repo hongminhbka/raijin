@@ -9424,11 +9424,7 @@ div[class*="col-md-6"] .post-thumbnail iframe, div[class*="col-md-4"] .post-thum
 }
 
 .wrapper-page .heading-title {
-  text-transform: capitalize;
-  margin-bottom: 0;
   display: block;
-  font-size: 20px;
-  margin-top: 15px;
 }
 
 #wp-main-content {
@@ -10466,10 +10462,8 @@ body.page .content-page-inner h1.title {
 }
 
 .custom-breadcrumb .breadcrumb-container-inner .heading-title {
-  font-size: 52px;
-  color: #18212e;
+  font-size: 50px;
   margin: 0;
-  font-family: "Roboto";
 }
 
 @media (max-width: 991.98px) {
