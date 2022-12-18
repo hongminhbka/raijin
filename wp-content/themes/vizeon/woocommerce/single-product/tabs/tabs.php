@@ -23,11 +23,18 @@ $tabs = apply_filters('woocommerce_product_tabs', array());
 $_count = 0;
 
 if (!empty($tabs)) : ?>
-	<?php $tabs = [$tabs[1], $tabs[0]] ?>
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
 			<div class="tab-content col-xs-12">
 				<?php foreach ($tabs as $key => $tab) : ?>
+					<?php $text = $key == 1   ? "Thông số kỹ thuật" : 'Nội dung' ?>
+					<div style="font-family: 'Montserrat';
+						font-style: normal;
+						font-weight: 500;
+						font-size: 20px;
+						line-height: 28px;">
+						<?php echo $text ?>
+					</div>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
