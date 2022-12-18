@@ -329,41 +329,41 @@ extract($sidebar_config);
                   </svg>
                </div>
             </div>
-         </div>
-         <div class="d-flex px-2 py-2 mb-2" style="border: 1px solid grey; border-radius: 5px">
-            <div style="
-              font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 16px;
-              line-height: 24px;
-              color: #2e3a5b;
-            ">
-               3. Hợp đồng bảo hiểm sẽ được gửi đến khách hàng như thế nào
+            <div class="d-flex px-2 py-2 mb-2" style="border: 1px solid grey; border-radius: 5px">
+               <div style="
+                 font-family: 'Montserrat';
+                 font-style: normal;
+                 font-weight: 500;
+                 font-size: 16px;
+                 line-height: 24px;
+                 color: #2e3a5b;
+               ">
+                  3. Hợp đồng bảo hiểm sẽ được gửi đến khách hàng như thế nào
+               </div>
+               <div style="margin-left: auto; padding-right: 5px; text-align: center">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99479 0.667969C8.36298 0.667969 8.66146 0.966446 8.66146 1.33464V14.668C8.66146 15.0362 8.36298 15.3346 7.99479 15.3346C7.6266 15.3346 7.32812 15.0362 7.32812 14.668V1.33464C7.32812 0.966446 7.6266 0.667969 7.99479 0.667969Z" fill="#596481" />
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.664062 8.0026C0.664062 7.63441 0.962539 7.33594 1.33073 7.33594H14.6641C15.0323 7.33594 15.3307 7.63441 15.3307 8.0026C15.3307 8.37079 15.0323 8.66927 14.6641 8.66927H1.33073C0.962539 8.66927 0.664062 8.37079 0.664062 8.0026Z" fill="#596481" />
+                  </svg>
+               </div>
             </div>
-            <div style="margin-left: auto; padding-right: 5px; text-align: center">
-               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99479 0.667969C8.36298 0.667969 8.66146 0.966446 8.66146 1.33464V14.668C8.66146 15.0362 8.36298 15.3346 7.99479 15.3346C7.6266 15.3346 7.32812 15.0362 7.32812 14.668V1.33464C7.32812 0.966446 7.6266 0.667969 7.99479 0.667969Z" fill="#596481" />
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.664062 8.0026C0.664062 7.63441 0.962539 7.33594 1.33073 7.33594H14.6641C15.0323 7.33594 15.3307 7.63441 15.3307 8.0026C15.3307 8.37079 15.0323 8.66927 14.6641 8.66927H1.33073C0.962539 8.66927 0.664062 8.37079 0.664062 8.0026Z" fill="#596481" />
-               </svg>
-            </div>
-         </div>
-         <div class="d-flex px-2 py-2 mb-2" style="border: 1px solid grey; border-radius: 5px">
-            <div style="
-              font-family: 'Montserrat';
-              font-style: normal;
-              font-weight: 500;
-              font-size: 16px;
-              line-height: 24px;
-              color: #2e3a5b;
-            ">
-               4. Hợp đồng bảo hiểm sẽ được gửi đến khách hàng như thế nào
-            </div>
-            <div style="margin-left: auto; padding-right: 5px; text-align: center">
-               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99479 0.667969C8.36298 0.667969 8.66146 0.966446 8.66146 1.33464V14.668C8.66146 15.0362 8.36298 15.3346 7.99479 15.3346C7.6266 15.3346 7.32812 15.0362 7.32812 14.668V1.33464C7.32812 0.966446 7.6266 0.667969 7.99479 0.667969Z" fill="#596481" />
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0.664062 8.0026C0.664062 7.63441 0.962539 7.33594 1.33073 7.33594H14.6641C15.0323 7.33594 15.3307 7.63441 15.3307 8.0026C15.3307 8.37079 15.0323 8.66927 14.6641 8.66927H1.33073C0.962539 8.66927 0.664062 8.37079 0.664062 8.0026Z" fill="#596481" />
-               </svg>
+            <div class="d-flex px-2 py-2 mb-2" style="border: 1px solid grey; border-radius: 5px">
+               <div style="
+                 font-family: 'Montserrat';
+                 font-style: normal;
+                 font-weight: 500;
+                 font-size: 16px;
+                 line-height: 24px;
+                 color: #2e3a5b;
+               ">
+                  4. Hợp đồng bảo hiểm sẽ được gửi đến khách hàng như thế nào
+               </div>
+               <div style="margin-left: auto; padding-right: 5px; text-align: center">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99479 0.667969C8.36298 0.667969 8.66146 0.966446 8.66146 1.33464V14.668C8.66146 15.0362 8.36298 15.3346 7.99479 15.3346C7.6266 15.3346 7.32812 15.0362 7.32812 14.668V1.33464C7.32812 0.966446 7.6266 0.667969 7.99479 0.667969Z" fill="#596481" />
+                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.664062 8.0026C0.664062 7.63441 0.962539 7.33594 1.33073 7.33594H14.6641C15.0323 7.33594 15.3307 7.63441 15.3307 8.0026C15.3307 8.37079 15.0323 8.66927 14.6641 8.66927H1.33073C0.962539 8.66927 0.664062 8.37079 0.664062 8.0026Z" fill="#596481" />
+                  </svg>
+               </div>
             </div>
          </div>
       </div>
