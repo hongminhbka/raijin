@@ -41,7 +41,7 @@ if ($products->have_posts()) : ?>
 			line-height: 40px;
 			color:#2E3A5B" class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></div>
 		</div>
-		<div style="background-color: #ffffff !important; padding: 15px 0px;" class="container">
+		<div style="background-color: #ffffff !important; padding: auto;">
 			<div class="products carousel-view count-row-1 container justify-space-between">
 				<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true">
 					<?php while ($products->have_posts()) : $products->the_post(); ?>
@@ -52,7 +52,6 @@ if ($products->have_posts()) : ?>
 					?>
 				</div>
 			</div>
-			?>
 		</div>
 
 	</div>
