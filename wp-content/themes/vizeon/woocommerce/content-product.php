@@ -59,7 +59,7 @@ $classes[] = 'product-block product';
    <div class="product-block-inner clearfix" style="height: 400px !important;">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 
-      <div class="product-thumbnail" >
+      <div class="product-thumbnail">
          <div class="product-thumbnail-inner">
             <?php
             /**
@@ -89,9 +89,7 @@ $classes[] = 'product-block product';
             }
             ?>
 
-            <div style="position: absolute; ">
-               <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn btn-outline-secondary product_type_<?php echo esc_attr($product->get_type()) ?>"><span style="color:#596481"> Xem chi tiết</span></a>
-            </div>
+
          </div>
 
       </div>
@@ -127,22 +125,22 @@ $classes[] = 'product-block product';
          <div class="shop-loop-after-title">
 
             <div class="shop-loop-price" style="font-family: 'Montserrat';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color:#BDBEBF !important;
-">
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 24px;
+               color:#BDBEBF !important;
+               ">
                <?php woocommerce_template_loop_price(); ?>
             </div>
             <div class="shop-loop-after" style="
-            font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
-color: #2E3A5B !important;
-            ">
+               font-family: 'Montserrat';
+               font-style: normal;
+               font-weight: 500;
+               font-size: 20px;
+               line-height: 28px;
+               color: #2E3A5B !important;
+                           ">
                <?php
                /**
                 * woocommerce_after_shop_loop_item hook
@@ -152,6 +150,9 @@ color: #2E3A5B !important;
                do_action('woocommerce_after_shop_loop_item');
                ?>
             </div>
+         </div>
+         <div class="mt-2">
+            <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn btn-outline-secondary product_type_<?php echo esc_attr($product->get_type()) ?>"><span style="color:#596481"> Xem chi tiết</span></a>
          </div>
 
       </div>
