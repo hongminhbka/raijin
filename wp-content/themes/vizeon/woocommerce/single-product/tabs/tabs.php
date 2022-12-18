@@ -70,16 +70,16 @@ if (!empty($tabs)) : ?>
 
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
-			<!-- <div class="woocommerce-tab-product-nav">
+			<div class="woocommerce-tab-product-nav">
 				<ul class="woocommerce-tab-product-info nav nav-tabs default clear-list">
 					<?php foreach ($tabs as $key => $tab) : ?>
-						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>">
+						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(($_count == 1 ? ' active' : '')); ?>">
 							<a data-toggle="tab" href="#tab-<?php echo esc_attr($key); ?>"><?php echo apply_filters('woocommerce_product_' . $key . '_tab_title', $tab['title'], $key) ?></a>
 						</li>
 					<?php $_count++;
 					endforeach; ?>
 				</ul>
-			</div> -->
+			</div>
 			<?php $_count = 1; ?>
 			<div class="tab-content col-xs-12">
 				<?php foreach ($tabs as $key => $tab) : ?>
