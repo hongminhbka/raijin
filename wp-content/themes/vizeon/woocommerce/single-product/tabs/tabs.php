@@ -23,21 +23,10 @@ $tabs = apply_filters('woocommerce_product_tabs', array());
 $_count = 0;
 
 if (!empty($tabs)) : ?>
-
+	<?php $tabs = [$tabs[1], $tabs[0]] ?>
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
-			<!-- <div class="woocommerce-tab-product-nav">
-				<ul class="woocommerce-tab-product-info nav nav-tabs default clear-list">
-					<?php foreach ($tabs as $key => $tab) : ?>
-						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(($_count == 1 ? ' active' : '')); ?>">
-							<a data-toggle="tab" href="#tab-<?php echo esc_attr($key); ?>"><?php echo apply_filters('woocommerce_product_' . $key . '_tab_title', $tab['title'], $key) ?></a>
-						</li>
-					<?php $_count++;
-					endforeach; ?>
-				</ul>
-			</div> -->
 			<div class="tab-content col-xs-12">
-				<?php if(count($tabs) == 2) $tabs = [$tabs[1], $tabs[0]] ?>
 				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
