@@ -23,12 +23,10 @@ $tabs = apply_filters('woocommerce_product_tabs', array());
 $_count = 0;
 
 if (!empty($tabs)) : ?>
-	<?php $tabs = [$tabs[1], $tabs[0]] ?>
-	<div><?php echo $tabs[0]?></div>
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
 			<div class="tab-content col-xs-12">
-				<?php foreach ($tabs as $key => $tab) : ?>
+				<?php for ($i = 1 ; $i>=0 ; $i--) : ?>
 					<?php $text = $key != 'description'   ? "Thông số kỹ thuật" : 'Nội dung' ?>
 					<div style="font-family: 'Montserrat';
 						font-style: normal;
@@ -39,11 +37,11 @@ if (!empty($tabs)) : ?>
 						line-height: 28px;">
 						<?php echo $text ?>
 					</div>
-					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
-						<?php call_user_func($tab['callback'], $key, $tab) ?>
+					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($i); ?>">
+						<?php call_user_func($tabs[$i]['callback'], $key, $tabs[$i]) ?>
 					</div>
 				<?php
-				endforeach; ?>
+				endfor; ?>
 			</div>
 
 		</div>
