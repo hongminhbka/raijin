@@ -54,7 +54,7 @@ extract($sidebar_config);
    do_action('woocommerce_before_main_content');
    ?>
 
-   <div class="container">
+   <div class="">
       <div class="main-page-content row">
          <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
 
