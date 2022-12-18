@@ -89,9 +89,8 @@ $classes[] = 'product-block product';
             }
             ?>
 
-            <div class="">
-               Xem chi tiết
-               <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn-quickview product_type_<?php echo esc_attr($product->get_type()) ?>"><span class="gv-icon-41"></span></a>
+            <div class="btn btn-outline-secondary">
+               <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn-quickview product_type_<?php echo esc_attr($product->get_type()) ?>"><span> Xem chi tiết</span></a>
             </div>
          </div>
 
