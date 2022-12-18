@@ -38,7 +38,7 @@ if (!empty($tabs)) : ?>
 						<?php echo $text ?>
 					</div>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($i); ?>">
-						<?php call_user_func($tabs[$i]['callback'], $key, $tabs[$i]) ?>
+						<?php call_user_func($tabs[$i]['callback'], $i, $tabs[$i]) ?>
 					</div>
 				<?php
 				endfor; ?>
