@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 ?>
 
 <div id="product-<?php the_ID(); ?>" <?php post_class( $classes ); ?>>
-	<div class="product-wrapper clearfix">
+	<div class="product-wrapper clearfix container">
 		
 		<div class="product-single-inner row">
 			<div class="column col-md-6 col-sm-12 col-xs-12 product_image_wrapper">
