@@ -7412,8 +7412,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 }
 
 .support-box .phone {
-  font-family: "Covered By Your Grace", cursive;
-  font-size: 50px;
+  font-size: 30px;
   color: #ffec4e;
   line-height: 1;
 }
