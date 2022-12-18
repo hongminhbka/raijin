@@ -159,7 +159,7 @@ extract($sidebar_config);
 
 
       </div>
-      <div style="background-color: #f4f4f4 ; padding: 40px 0px">
+      <div style="background-color: #ffffff ; padding: 40px 0px">
          <div class="container" style="padding: 40px">
             <div style="
             font-family: 'Montserrat';
@@ -366,6 +366,12 @@ extract($sidebar_config);
                </div>
             </div>
          </div>
+         <!-- <div style="background-color: #ffffff ; padding: 40px 0px">
+      
+         
+      
+      
+         </div> -->
 
       </div>
       <?php woocommerce_output_related_products() ?>
