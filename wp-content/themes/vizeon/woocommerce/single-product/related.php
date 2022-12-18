@@ -39,23 +39,21 @@ if ($products->have_posts()) : ?>
 			font-weight: 600;
 			font-size: 32px;
 			line-height: 40px;
-			color:#2E3A5B" 
-			class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></div>
+			color:#2E3A5B" class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></div>
 		</div>
-		<?php //woocommerce_product_loop_start(); 
-		?>
-		<div class="products carousel-view count-row-1 container justify-space-between" style="background-color: #ffffff !important; padding: 15px 0px;">
-			<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true">
-				<?php while ($products->have_posts()) : $products->the_post(); ?>
+		<div style="background-color: #ffffff !important; padding: 15px 0px;">
+			<div class="products carousel-view count-row-1 container justify-space-between">
+				<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true">
+					<?php while ($products->have_posts()) : $products->the_post(); ?>
 
-					<?php wc_get_template_part('content', 'product'); ?>
+						<?php wc_get_template_part('content', 'product'); ?>
 
-				<?php endwhile; // end of the loop. 
-				?>
+					<?php endwhile; // end of the loop. 
+					?>
+				</div>
 			</div>
+			?>
 		</div>
-		<?php //woocommerce_product_loop_end(); 
-		?>
 
 	</div>
 
