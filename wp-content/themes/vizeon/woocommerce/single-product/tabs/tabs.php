@@ -70,7 +70,7 @@ if (!empty($tabs)) : ?>
 
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
-			<div class="woocommerce-tab-product-nav">
+			<!-- <div class="woocommerce-tab-product-nav">
 				<ul class="woocommerce-tab-product-info nav nav-tabs default clear-list">
 					<?php foreach ($tabs as $key => $tab) : ?>
 						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>">
@@ -79,8 +79,8 @@ if (!empty($tabs)) : ?>
 					<?php $_count++;
 					endforeach; ?>
 				</ul>
-			</div>
-			<?php $_count = 0; ?>
+			</div> -->
+			<?php $_count = 1; ?>
 			<div class="tab-content col-xs-12">
 				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr($key); ?>">
