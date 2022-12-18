@@ -36,8 +36,8 @@ if(!function_exists('vizeon_get_headers')){
 if(!function_exists('vizeon_general_breadcrumbs')){
   function vizeon_general_breadcrumbs() {
 
-    $delimiter = '.&nbsp;';
-    $home = esc_html__('Home', 'vizeon');
+    $delimiter = '>&nbsp;';
+    $home = 'Trang chủ';
     $before = '<li class="active">';
     $after = '</li>';
     $breadcrumb = '';
