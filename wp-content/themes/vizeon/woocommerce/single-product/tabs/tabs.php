@@ -78,7 +78,7 @@ if (!empty($tabs)) : ?>
 			</div>
 		</div>
 	</div>
-	<div class="woocommerce-tabs clearfix tabs-left container">
+	<div class="container">
 		<div class="woocommerce-tabs-inner clear fix container">
 			<div class="tab-content col-xs-12 container">
 				<?php foreach (array_reverse($tabs) as $key => $tab) : ?>
