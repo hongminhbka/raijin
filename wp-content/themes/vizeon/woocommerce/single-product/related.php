@@ -32,7 +32,7 @@ $woocommerce_loop['columns'] = $columns;
 
 if ($products->have_posts()) : ?>
 
-	<div class="widget related products py-5" style="background-image:url('/wp-content/uploads/2015/12/bg_product_details_splq.jpg');">
+	<div class="widget related products py-5" style="background-image:url('~/wp-content/uploads/2015/12/bg_product_details_splq.jpg');">
 		<div class="container">
 			<h2 class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></h2>
 		</div>
