@@ -37,21 +37,14 @@ if (!empty($tabs)) : ?>
 				</ul>
 			</div> -->
 			<?php $_count = 1; ?>
-			<!-- <div class="tab-content col-xs-12">
+			<div class="tab-content col-xs-12">
 				<?php ?>
-				<?php foreach ($tabs as $key => $tab) : ?>
-					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
-						<?php call_user_func($tab['callback'], $key, $tab) ?>
+				<?php for($i=1 ; $i>=0 ; $i++) ?>
+					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($i); ?>">
+						<?php call_user_func($tabs[$i]['callback'], $key, $tabs[$i]) ?>
 					</div>
 				<?php $_count--;
-				endforeach; ?>
-			</div> -->
-			<div>
-				<?php $tabs[1] ?>
-
-			</div>
-			<div>
-				<?php $tabs[0] ?>
+				 ?>
 			</div>
 
 		</div>
