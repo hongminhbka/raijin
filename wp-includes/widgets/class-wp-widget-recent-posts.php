@@ -27,7 +27,7 @@ class WP_Widget_Recent_Posts extends WP_Widget {
 			'description'                 => __( 'Your site&#8217;s most recent Posts.' ),
 			'customize_selective_refresh' => true,
 		);
-		parent::__construct( 'recent-posts', __( 'Recent Posts' ), $widget_ops );
+		parent::__construct( 'recent-posts', __( 'Tin tức' ), $widget_ops );
 		$this->alt_option_name = 'widget_recent_entries';
 	}
 
