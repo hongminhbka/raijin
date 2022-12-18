@@ -38,7 +38,7 @@ if ($products->have_posts()) : ?>
 		</div>
 		<?php //woocommerce_product_loop_start(); 
 		?>
-		<div class="products carousel-view count-row-1 container justify-space-between">
+		<div class="products carousel-view count-row-1 container justify-space-between" style="background-color: #ffffff !important; padding: 15px 0px;">
 			<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true">
 				<?php while ($products->have_posts()) : $products->the_post(); ?>
 
