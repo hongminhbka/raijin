@@ -151,9 +151,7 @@ $classes[] = 'product-block product';
                ?>
             </div>
          </div>
-         <div class="mt-2">
-            <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn btn-outline-secondary product_type_<?php echo esc_attr($product->get_type()) ?>"><span style="color:#596481"> Xem chi tiết</span></a>
-         </div>
+         <a href="<?php esc_url(the_permalink()); ?>" class="btn btn-outline-secondary"><span style="color:#596481"> Xem chi tiết</span></a>
 
       </div>
    </div>
