@@ -43,7 +43,7 @@
             </div>
          </div>
 
-         <div class="read-more"><a class="btn-inline" href="<?php echo esc_url( get_permalink() ) ?>"><?php echo esc_html__( 'Read more ', 'vizeon' ) ?></a></div>
+         <div class="read-more"><a class="btn-inline" href="<?php echo esc_url( get_permalink() ) ?>">Chi tiết</a></div>
          
       </div>
    </article>   
