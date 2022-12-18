@@ -26,7 +26,7 @@ if (!empty($tabs)) : ?>
 
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
-			<!-- <div class="woocommerce-tab-product-nav">
+			<div class="woocommerce-tab-product-nav">
 				<ul class="woocommerce-tab-product-info nav nav-tabs default clear-list">
 					<?php foreach ($tabs as $key => $tab) : ?>
 						<li class="<?php echo esc_attr($key); ?>_tab<?php echo esc_attr(($_count == 1 ? ' active' : '')); ?>">
@@ -36,18 +36,22 @@ if (!empty($tabs)) : ?>
 					endforeach; ?>
 				</ul>
 			</div>
-			<?php $_count = 1; ?> -->
-			<div class="tab-content col-xs-12">
-				<div class="tab-pane<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr(1); ?>">
-					<?php call_user_func($tabs[1]['callback'], 1, $tabs[1]) ?>
-				</div>
-				<!-- <?php foreach ($tabs as $key => $tab) : ?>
+			<?php $_count = 1; ?>
+			<!-- <div class="tab-content col-xs-12">
+				<?php ?>
+				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
-				<?php $_count++;
-						endforeach; ?> -->
+					<?php $_count++;
+				endforeach; ?>
+			</div> -->
+			<div class="tab-content col-xs-12">
+				<div class="tab-pane<?php echo esc_attr((' active')); ?>" id="tab-<?php echo esc_attr(1); ?>">
+					<?php call_user_func($tabs[1]['callback'], $key, $tabs[1]) ?>
+				</div>
 			</div>
+
 		</div>
 	</div>
 
