@@ -39,12 +39,12 @@ if (!empty($tabs)) : ?>
 			<?php $_count = 1; ?>
 			<div class="tab-content col-xs-12">
 				<?php ?>
-				<?php for($i=1 ; $i>=0 ; $i++) ?>
-					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($i); ?>">
-						<?php call_user_func($tabs[$i]['callback'], $key, $tabs[$i]) ?>
+				<?php foreach ($tabs as $key => $tab) : ?>
+					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
+						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
 				<?php $_count--;
-				 ?>
+				endforeach; ?>
 			</div>
 
 		</div>
