@@ -37,7 +37,7 @@ if (!empty($tabs)) : ?>
 				</ul>
 			</div> -->
 			<div class="tab-content col-xs-12">
-				<?php $tabs = [$tabs[1], $tabs[0]] ?>
+				<?php if(count($tabs) == 2) $tabs = [$tabs[1], $tabs[0]] ?>
 				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
