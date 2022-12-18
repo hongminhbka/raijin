@@ -37,7 +37,7 @@ if (!empty($tabs)) : ?>
 				</ul>
 			</div> -->
 			<?php $_count = 1; ?>
-			<div class="tab-content col-xs-12">
+			<!-- <div class="tab-content col-xs-12">
 				<?php ?>
 				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
@@ -45,14 +45,13 @@ if (!empty($tabs)) : ?>
 					</div>
 				<?php $_count--;
 				endforeach; ?>
-			</div>
-			<div>
-				<?php $tabs[0] ?>
-
-			</div>
+			</div> -->
 			<div>
 				<?php $tabs[1] ?>
 
+			</div>
+			<div>
+				<?php $tabs[0] ?>
 			</div>
 
 		</div>
