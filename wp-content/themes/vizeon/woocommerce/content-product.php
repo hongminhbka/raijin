@@ -151,7 +151,9 @@ $classes[] = 'product-block product';
                ?>
             </div>
          </div>
-         <a href="<?php esc_url(the_permalink()); ?>" class="btn btn-outline-secondary"><span style="color:#596481"> Xem chi tiết</span></a>
+         <div class="text-center justify-center">
+            <a href="<?php esc_url(the_permalink()); ?>" class="btn btn-outline-secondary"><span style="color:#596481"> Xem chi tiết</span></a>
+         </div>
 
       </div>
    </div>
