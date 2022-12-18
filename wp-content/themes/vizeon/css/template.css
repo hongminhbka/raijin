@@ -7754,6 +7754,7 @@ div[class*="col-md-6"] .post-thumbnail iframe, div[class*="col-md-4"] .post-thum
 
 .single.single-post #wp-content {
   margin-bottom: 30px;
+  text-align: justify;
 }
 
 .single.single-post #wp-content > article.post .entry-title {
