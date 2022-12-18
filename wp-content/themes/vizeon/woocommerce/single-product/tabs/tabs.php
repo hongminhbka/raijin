@@ -40,7 +40,7 @@ if (!empty($tabs)) : ?>
 			<div class="tab-content col-xs-12">
 				<?php ?>
 				<?php foreach ($tabs as $key => $tab) : ?>
-					<div class="tab-pane<?php echo esc_attr(($_count == 0 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr($key); ?>">
+					<div class="tab-pane<?php echo esc_attr(($_count == 1 ? ' active' : '')); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
 				<?php $_count++;
