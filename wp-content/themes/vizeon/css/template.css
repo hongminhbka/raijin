@@ -54,6 +54,7 @@ img {
   vertical-align: top;
   max-width: 100%;
   height: auto;
+  max-height: 200px;
 }
 
 .video-responsive {
@@ -7490,7 +7491,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 .post .entry-description {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 .post .entry-meta {
@@ -9837,7 +9838,7 @@ body.error404 .header-default {
 }
 
 .content-page-index .post-masonry-index .post .entry-content {
-  padding: 30px;
+  padding: 25px;
   border: 1px solid #dee2e6;
 }
 
