@@ -26,8 +26,9 @@ if (!empty($tabs)) : ?>
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
 			<div class="tab-content col-xs-12">
-				<?php for ($i = 1 ; $i>=0 ; $i--) : ?>
-					<?php $text = $i != 1   ? "Thông số kỹ thuật" : 'Nội dung' ?>
+				<?php foreach ($tabs as $key => $tab) : ?>
+					<div><?php echo $key ?></div>
+					<?php $text = $key != 'description'   ? "Thông số kỹ thuật" : 'Nội dung' ?>
 					<div style="font-family: 'Montserrat';
 						font-style: normal;
 						font-weight: 500;
@@ -37,11 +38,11 @@ if (!empty($tabs)) : ?>
 						line-height: 28px;">
 						<?php echo $text ?>
 					</div>
-					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($i); ?>">
-						<?php call_user_func($tabs[$i]['callback'], $i, $tabs[$i]) ?>
+					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
+						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
 				<?php
-				endfor; ?>
+				endforeach; ?>
 			</div>
 
 		</div>
