@@ -36,7 +36,7 @@ if ( $products->have_posts() ) : ?>
 		<h2 class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products' )) ?></h2>
 
 		<?php //woocommerce_product_loop_start(); ?>
-			<div class="products carousel-view count-row-1">
+			<div class="products carousel-view count-row-1 container">
 				<div class="init-carousel-owl-theme owl-carousel" data-items="<?php echo esc_attr($show); ?>" data-nav="true" >
 					<?php while ( $products->have_posts() ) : $products->the_post(); ?>
 					
