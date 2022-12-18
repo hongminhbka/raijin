@@ -36,14 +36,12 @@ if (!empty($tabs)) : ?>
 					endforeach; ?>
 				</ul>
 			</div> -->
-			<?php $_count = 1; ?>
 			<div class="tab-content col-xs-12">
-				<?php ?>
 				<?php foreach ($tabs as $key => $tab) : ?>
 					<div class="tab-pane<?php echo esc_attr(' active'); ?>" id="tab-<?php echo esc_attr($key); ?>">
 						<?php call_user_func($tab['callback'], $key, $tab) ?>
 					</div>
-				<?php $_count--;
+				<?php
 				endforeach; ?>
 			</div>
 
