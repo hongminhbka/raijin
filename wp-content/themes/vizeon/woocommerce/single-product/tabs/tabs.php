@@ -24,6 +24,7 @@ $_count = 0;
 
 if (!empty($tabs)) : ?>
 	<?php $tabs = [$tabs[1], $tabs[0]] ?>
+	<div><?php echo $tabs?></div>
 	<div class="woocommerce-tabs clearfix tabs-left">
 		<div class="woocommerce-tabs-inner clear fix">
 			<div class="tab-content col-xs-12">
