@@ -33,7 +33,7 @@ $woocommerce_loop['columns'] = $columns;
 if ($products->have_posts()) : ?>
 
 	<div class="widget related products " style="background-image:url('/wp-content/uploads/2015/12/bg_product_details_splq.jpg');
-		position: relative;
+		position: relative;padding: 100px 0px;
 	">
 		<div class="container">
 			<div style="font-family: 'Montserrat';
@@ -42,7 +42,7 @@ if ($products->have_posts()) : ?>
 			font-size: 32px;
 			line-height: 40px;
 			position:absolute;
-			top: 7px;
+			top: 20px;
 			left: 15%;
 			color:#2E3A5B" class="widget-title"><?php echo esc_html(vizeon_get_option('related_heading_text', 'Related Products')) ?></div>
 		</div>
