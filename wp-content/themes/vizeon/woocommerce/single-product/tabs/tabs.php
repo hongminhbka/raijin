@@ -32,6 +32,8 @@ if (!empty($tabs)) : ?>
 						font-style: normal;
 						font-weight: 500;
 						font-size: 20px;
+						color: #2E3A5B;
+						padding: 10px 0px;
 						line-height: 28px;">
 						<?php echo $text ?>
 					</div>
