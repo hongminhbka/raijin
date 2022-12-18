@@ -102,61 +102,7 @@ extract($sidebar_config);
    ?>
 
    <div class="related-section">
-      <div style="background-color: #2E3A5B; padding: 40px 0px ">
-         <div class="container" style="padding: 40px;">
-            <div style="font-family: 'Montserrat';
-				font-style: normal;
-				font-weight: 600;
-				font-size: 32px;
-				color: white;
-				line-height: 40px;">
-               Bạn đang tìm sản phẩm cho xe gì
-            </div>
-            <div style="
-				font-family: 'Montserrat';
-				font-style: normal;
-				font-weight: 400;
-				font-size: 16px;
-				line-height: 24px;
-				color: white;
-				padding: 20px 0px
-				">
-               Raijin có đủ sản phẩm cho tất cả các dòng xe
-            </div>
-            <div class=" row" style="justify-content: space-between;">
-
-               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
-                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color: '#2E3A5B'">
-                     <span style="color: #2E3A5B">
-                        Honda
-                     </span>
-                  </button>
-
-               </div>
-               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
-
-                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
-                     <span style="color: #2E3A5B">
-                        Yamaha
-                     </span></button>
-               </div>
-               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
-                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
-                     <span style="color: #2E3A5B">
-                        Piagio
-                     </span></button>
-               </div>
-               <div class="col-lg-3 col-md-6  col-sm-12 mt-2">
-
-                  <button type="button" class="btn btn-lg" style="background-color: white; width: 100% ; height:auto; color:'#2E3A5B'">
-                     <span style="color: #2E3A5B">
-                        Xe hãng khác
-                     </span>
-                  </button>
-               </div>
-            </div>
-         </div>
-      </div>
+     
       <div style="background-color: #F4F4F4 ; padding: 40px 0px">
          <div class="container" style="padding: 40px">
             <div style="
