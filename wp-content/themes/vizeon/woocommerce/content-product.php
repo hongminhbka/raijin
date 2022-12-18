@@ -59,7 +59,7 @@ $classes[] = 'product-block product';
    <div class="product-block-inner clearfix" style="height: 400px !important;">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 
-      <div class="product-thumbnail" style="position: relative;">
+      <div class="product-thumbnail" >
          <div class="product-thumbnail-inner">
             <?php
             /**
@@ -72,7 +72,7 @@ $classes[] = 'product-block product';
             ?>
          </div>
 
-         <div class=" ">
+         <div style="position: relative;">
             <!-- <?php woocommerce_template_loop_add_to_cart(); ?> -->
             <?php
             /**
@@ -89,7 +89,7 @@ $classes[] = 'product-block product';
             }
             ?>
 
-            <div style="position: absolute;">
+            <div style="position: absolute; ">
                <a href="javascript:void(0);" data-product_id="<?php echo esc_attr($product->get_id()) ?>" class="btn btn-outline-secondary product_type_<?php echo esc_attr($product->get_type()) ?>"><span style="color:#596481"> Xem chi tiết</span></a>
             </div>
          </div>
