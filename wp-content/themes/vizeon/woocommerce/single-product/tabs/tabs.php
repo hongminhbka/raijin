@@ -27,7 +27,7 @@ if (!empty($tabs)) : ?>
 		<div class="woocommerce-tabs-inner clear fix">
 			<div class="tab-content col-xs-12">
 				<?php for ($i = 1 ; $i>=0 ; $i--) : ?>
-					<?php $text = $key != 'description'   ? "Thông số kỹ thuật" : 'Nội dung' ?>
+					<?php $text = $i != 1   ? "Thông số kỹ thuật" : 'Nội dung' ?>
 					<div style="font-family: 'Montserrat';
 						font-style: normal;
 						font-weight: 500;
