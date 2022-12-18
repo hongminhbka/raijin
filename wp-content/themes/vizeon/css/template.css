@@ -5927,6 +5927,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 
 .gsc-heading.align-left .title-desc {
   float: left;
+  text-align: justify;
 }
 
 .gsc-heading.align-left .title-icon {
