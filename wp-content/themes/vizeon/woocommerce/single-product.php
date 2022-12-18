@@ -257,7 +257,7 @@ extract($sidebar_config);
          </div>
       </div>
       <div style="background-color: #ffffff ; padding: 40px 0px">
-         <div class="mt-5">
+         <div class="container" style="padding: 40px">
             <div style="
               font-family: 'Montserrat';
               font-style: normal;
