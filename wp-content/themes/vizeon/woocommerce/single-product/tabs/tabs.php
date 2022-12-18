@@ -79,8 +79,8 @@ if (!empty($tabs)) : ?>
 		</div>
 	</div>
 	<div class="woocommerce-tabs clearfix tabs-left container">
-		<div class="woocommerce-tabs-inner clear fix">
-			<div class="tab-content col-xs-12">
+		<div class="woocommerce-tabs-inner clear fix container">
+			<div class="tab-content col-xs-12 container">
 				<?php foreach (array_reverse($tabs) as $key => $tab) : ?>
 					<?php $text = $key != 'description'   ? "Thông số kỹ thuật" : 'Nội dung' ?>
 					<div style="font-family: 'Montserrat';
