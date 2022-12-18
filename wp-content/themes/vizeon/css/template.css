@@ -11004,3 +11004,7 @@ ul.nav-tabs > li.active > a {
 .ps-container:hover > .ps-scrollbar-y-rail:hover > .ps-scrollbar-y {
   background-color: #999;
 }
+
+.product_list_widget ul li {
+  display: inline;
+}
