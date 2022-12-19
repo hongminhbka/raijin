@@ -1559,10 +1559,9 @@ ul.elementor-icon-list-items.elementor-inline-items {
     -webkit-border-radius: 4px;
             border-radius: 4px; }
   .elementor-button.elementor-size-lg {
-    font-size: 18px;
+    font-size: 16px;
     padding: 20px 40px;
-    -webkit-border-radius: 5px;
-            border-radius: 5px; }
+    }
   .elementor-button.elementor-size-xl {
     font-size: 20px;
     padding: 25px 50px;
