@@ -109,7 +109,7 @@ function wc_add_short_description() {
 	global $product;
 	?>
         <div itemprop="description">
-            <?php echo substr(apply_filters( 'woocommerce_short_description', $product->get_short_description()), 0, 200) ?>
+            <?php echo substr(apply_filters( 'woocommerce_short_description', $product->get_short_description()), 0, 100) . "..." ?>
         </div>
 	<?php
 }
