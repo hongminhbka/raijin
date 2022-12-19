@@ -90,7 +90,7 @@ function vizeon_style_breadcrumb(){
   if(is_home()) { // Home Index
     $breadcrumb_show_title = true;
     $title = esc_html__( 'Latest posts', 'vizeon' );
-    $breadcrumb_padding_top = '100';
+    $breadcrumb_padding_top = '275';
     $breadcrumb_padding_bottom = '100';
     $breadcrumb_text_align = 'text-center';
     $breadcrumb_text_style = 'text-light';
