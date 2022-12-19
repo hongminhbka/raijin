@@ -64,3 +64,11 @@ Template: vizeon
     line-height: 24px;
     color: #F4F4F4;
 }
+
+.home-page .product-block .product-meta .shop-loop-title a:hover{
+    color: #C40000;
+}
+
+.home-page .product-block .product-meta .shop-loop-after-title .price{
+    color: #F4F4F4;
+}
