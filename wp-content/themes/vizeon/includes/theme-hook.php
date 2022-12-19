@@ -22,7 +22,7 @@ function vizeon_style_breadcrumb(){
   if(get_post_meta($post_id, 'vizeon_no_breadcrumbs', true) == true){
     $show_no_breadcrumbs = true;
   }
-  $breadcrumb_padding_top = vizeon_get_option('breadcrumb_padding_top', '100'); //275
+  $breadcrumb_padding_top = vizeon_get_option('breadcrumb_padding_top', '275'); //275
   $breadcrumb_padding_bottom = vizeon_get_option('breadcrumb_padding_bottom', '100');
   $breadcrumb_show_title = vizeon_get_option('breadcrumb_show_title', '1');
   $breadcrumb_bg_color = vizeon_get_option('breadcrumb_background_color', '1');;
