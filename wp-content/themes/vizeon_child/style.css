@@ -52,3 +52,9 @@ Template: vizeon
     line-height: 28px;
     color: #2E3A5B;
 }
+
+.home-page .product-block .product-thumbnail{
+    background: #fff;
+    border-radius: 5px;
+    padding: 65px 50px;
+}
