@@ -51,7 +51,7 @@ function vizeon_style_breadcrumb(){
 
   //Breadcrumb category and tag products
   if(vizeon_woocommerce_activated() && (is_product_tag() || is_product_category() || is_shop() || is_product()) ){
-    $breadcrumb_padding_top = vizeon_get_option('woo_breadcrumb_padding_top', '100');
+    $breadcrumb_padding_top = vizeon_get_option('woo_breadcrumb_padding_top', '275');
     $breadcrumb_padding_bottom = vizeon_get_option('woo_breadcrumb_padding_bottom', '100');
     $breadcrumb_show_title = vizeon_get_option('woo_breadcrumb_show_title', '1');
     $breadcrumb_bg_color = vizeon_get_option('woo_breadcrumb_background_color', '1');;
