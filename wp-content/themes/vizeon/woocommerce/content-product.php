@@ -139,7 +139,7 @@ $classes[] = 'product-block product';
                font-weight: 500;
                font-size: 20px;
                line-height: 28px;
-               color: #2E3A5B !important;
+               color: #FFFFFF !important;
                            ">
                <?php
                /**
@@ -151,10 +151,9 @@ $classes[] = 'product-block product';
                ?>
             </div>
          </div>
-         <div class="text-center justify-center">
-            <a href="<?php esc_url(the_permalink()); ?>" class="btn btn-outline-secondary"><span style="color:#596481"> Xem chi tiết</span></a>
-         </div>
-
+         <div class="justify-center">
+            <a href="<?php esc_url(the_permalink()); ?>" style="color: #596481;"><i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i><span> Xem chi tiết</span></a>
+         </div>        
       </div>
    </div>
 </div>
