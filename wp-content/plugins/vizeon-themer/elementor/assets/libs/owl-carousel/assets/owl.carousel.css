@@ -128,7 +128,7 @@
   -o-transition: opacity 400ms ease;
   transition: opacity 400ms ease; }
 .owl-carousel .owl-item img {
-  transform-style: preserve-3d; max-height: 75px;}
+  transform-style: preserve-3d; max-height: 75px;max-height: 75px;padding-top: 20px;padding-bottom: 5px;}
 
 /* 
  * 	Owl Carousel - Video Plugin
