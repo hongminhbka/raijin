@@ -297,7 +297,7 @@ $woo_display = vizeon_display_modes_value();
          width: 100%;
          height: 375px;
          left: 0px;
-         top: 90%;
+         top: 95%;
          z-index: 1">
     </div>
     <div class="mt-3 mb-3" style="
@@ -391,7 +391,7 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.jpg);">
+    <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.jpg); width: 100% ; height: 100%">
 
     </div>
   </div>
