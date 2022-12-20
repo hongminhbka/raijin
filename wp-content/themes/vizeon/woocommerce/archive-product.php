@@ -208,7 +208,7 @@ $woo_display = vizeon_display_modes_value();
         line-height: 28px;
         color: #2E3A5B;
     ">Ắc quy Lithium xe máy Expert</div>
-    <div class="main-page-content row" >
+    <div class="main-page-content row" style="position:relative  ;z-index: 3">
       <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
 
         <div id="wp-content" class="wp-content">
@@ -290,6 +290,13 @@ $woo_display = vizeon_display_modes_value();
           <?php do_action('vizeon_after_sidebar'); ?>
         </div>
       <?php endif ?>
+       <div style="background-color: #222628; position: absolute ;
+         width: 100%;
+         height: 375px;
+         left: 0px;
+         bottom: -20%;
+         z-index: 1">
+      </div>
     </div>
   </div>
 
