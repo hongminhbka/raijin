@@ -291,11 +291,13 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div style="background-color: #222628; position: absolute ;
+    <div style="
+        background-color: #222628; 
+        position: absolute ;
          width: 100%;
          height: 375px;
          left: 0px;
-         bottom: -20%;
+         bottom: 20%;
          z-index: 1">
     </div>
   </div>
