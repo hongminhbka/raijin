@@ -86,7 +86,7 @@ $woo_display = vizeon_display_modes_value();
                 ">
                 Bạn đang tìm sản phẩm cho xe gì
               </div>
-              <div class="my-5" style="
+              <div class="my-3" style="
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 400;
@@ -96,18 +96,38 @@ $woo_display = vizeon_display_modes_value();
                 ">
                 Raijin có đủ sản phẩm cho tất cả các dòng xe
               </div>
-              <div class="row">
+              <div class="row my-2">
                 <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
-                  <button type="button" class="my-2btn btn-outline-primary">Honda</button>
+                  <button type="button" style="    width: 100%;
+                  height: 42px;
+                  border: 1px solid #596481;
+                  color: #596481;
+                  background-color: #ffffff;
+                  border-radius: 5px;">Honda</button>
                 </div>
                 <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
-                  <button type="button" class="my-2btn btn-outline-primary">Yamaha</button>
+                  <button type="button" style="    width: 100%;
+                  height: 42px;
+                  border: 1px solid #596481;
+                  color: #596481;
+                  background-color: #ffffff;
+                  border-radius: 5px;">Yamaha</button>
                 </div>
                 <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
-                  <button type="button" class="my-2btn btn-outline-primary">Piaggio</button>
+                  <button type="button" style="    width: 100%;
+                    height: 42px;
+                    border: 1px solid #596481;
+                    color: #596481;
+                    background-color: #ffffff;
+                    border-radius: 5px;">Piaggio</button>
                 </div>
                 <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
-                  <button type="button" class="my-2btn btn-outline-primary">Xe hãng khác</button>
+                  <button type="button" style="    width: 100%;
+                    height: 42px;
+                    border: 1px solid #596481;
+                    color: #596481;
+                    background-color: #ffffff;
+                    border-radius: 5px;">Xe hãng khác</button>
                 </div>
               </div>
             </div>
