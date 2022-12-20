@@ -222,62 +222,6 @@ $woo_display = vizeon_display_modes_value();
           <?php do_action('woocommerce_archive_description'); ?>
           <?php woocommerce_product_subcategories(); ?>
           <?php if (have_posts()) : ?>
-            <div class="container">
-              <div style="
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 32px;
-                line-height: 40px;
-                color: #2E3A5B
-                ">
-                Bạn đang tìm sản phẩm cho xe gì
-              </div>
-              <div class="my-3" style="
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-                color: #2E3A5B;
-                ">
-                Raijin có đủ sản phẩm cho tất cả các dòng xe
-              </div>
-              <div class="row my-2">
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <button type="button" style="    width: 100%;
-                  height: 42px;
-                  border: 1px solid #596481;
-                  color: #596481;
-                  background-color: #ffffff;
-                  border-radius: 5px;" class="my-2">Honda</button>
-                </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <button type="button" style="    width: 100%;
-                  height: 42px;
-                  border: 1px solid #596481;
-                  color: #596481;
-                  background-color: #ffffff;
-                  border-radius: 5px;" class="my-2">Yamaha</button>
-                </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <button type="button" style="    width: 100%;
-                    height: 42px;
-                    border: 1px solid #596481;
-                    color: #596481;
-                    background-color: #ffffff;
-                    border-radius: 5px;" class="my-2">Piaggio</button>
-                </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <button type="button" style="    width: 100%;
-                    height: 42px;
-                    border: 1px solid #596481;
-                    color: #596481;
-                    background-color: #ffffff;
-                    border-radius: 5px;" class="my-2">Xe hãng khác</button>
-                </div>
-              </div>
-            </div>
             <div class="shop-loop-container">
               <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
                 <div class="woocommerce-filter clearfix">

@@ -112,8 +112,7 @@ $classes[] = 'product-block product';
        */
       do_action('woocommerce_after_shop_loop_item_title');
       ?>
-      <div class="product-meta" style="border: 1px solid E9EAEA;
-    padding: 33px;">
+      <div class="product-meta" style="border: 1px solid #E9EAEA;padding: 33px;">
          <div class="clearfix"></div>
          <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
