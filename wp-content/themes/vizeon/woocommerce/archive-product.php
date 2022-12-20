@@ -200,6 +200,153 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
+    <div class="my-3" style="
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #2E3A5B;
+    ">Ắc quy Lithium xe máy Expert</div>
+    <div class="main-page-content row">
+      <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
+
+        <div id="wp-content" class="wp-content">
+
+          <?php if (apply_filters('woocommerce_show_page_title', true)) : ?>
+
+            <h1 class="page-title hidden"><?php woocommerce_page_title(); ?></h1>
+
+          <?php endif; ?>
+
+          <?php do_action('woocommerce_archive_description'); ?>
+          <?php woocommerce_product_subcategories(); ?>
+          <?php if (have_posts()) : ?>
+            <div class="container">
+              <div style="
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 40px;
+                color: #2E3A5B
+                ">
+                Bạn đang tìm sản phẩm cho xe gì
+              </div>
+              <div class="my-3" style="
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #2E3A5B;
+                ">
+                Raijin có đủ sản phẩm cho tất cả các dòng xe
+              </div>
+              <div class="row my-2">
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
+                  <button type="button" style="    width: 100%;
+                  height: 42px;
+                  border: 1px solid #596481;
+                  color: #596481;
+                  background-color: #ffffff;
+                  border-radius: 5px;" class="my-2">Honda</button>
+                </div>
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
+                  <button type="button" style="    width: 100%;
+                  height: 42px;
+                  border: 1px solid #596481;
+                  color: #596481;
+                  background-color: #ffffff;
+                  border-radius: 5px;" class="my-2">Yamaha</button>
+                </div>
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
+                  <button type="button" style="    width: 100%;
+                    height: 42px;
+                    border: 1px solid #596481;
+                    color: #596481;
+                    background-color: #ffffff;
+                    border-radius: 5px;" class="my-2">Piaggio</button>
+                </div>
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
+                  <button type="button" style="    width: 100%;
+                    height: 42px;
+                    border: 1px solid #596481;
+                    color: #596481;
+                    background-color: #ffffff;
+                    border-radius: 5px;" class="my-2">Xe hãng khác</button>
+                </div>
+              </div>
+            </div>
+            <div class="shop-loop-container">
+              <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
+                <div class="woocommerce-filter clearfix">
+                  <?php
+                  /**
+                   * woocommerce_before_shop_loop hook
+                   *
+                   * @hooked woocommerce_result_count - 20
+                   * @hooked woocommerce_catalog_ordering - 30
+                   */
+                  do_action('woocommerce_before_shop_loop');
+                  ?>
+                </div>
+
+                <?php do_action('vizeon_woocommerce_active_filter');  ?>
+
+                <?php woocommerce_product_loop_start(); ?>
+
+                <?php while (have_posts()) : the_post(); ?>
+
+                  <?php wc_get_template_part('content', 'product'); ?>
+
+                <?php endwhile; // end of the loop. 
+                ?>
+
+                <?php woocommerce_product_loop_end(); ?>
+
+                <?php
+                /**
+                 * woocommerce_after_shop_loop hook
+                 *
+                 * @hooked woocommerce_pagination - 10
+                 */
+                do_action('woocommerce_after_shop_loop');
+                ?>
+              </div>
+            </div>
+          <?php elseif (!woocommerce_product_subcategories(array('before' => woocommerce_product_loop_start(false), 'after' => woocommerce_product_loop_end(false)))) : ?>
+
+            <?php wc_get_template('loop/no-products-found.php'); ?>
+
+          <?php endif; ?>
+
+        </div>
+
+      </div>
+
+      <!-- Left sidebar -->
+      <?php if ($left_sidebar_config['active']) : ?>
+        <div class="sidebar wp-sidebar sidebar-left <?php echo esc_attr($left_sidebar_config['class']); ?>">
+          <?php do_action('vizeon_before_sidebar'); ?>
+          <div class="sidebar-inner">
+            <?php dynamic_sidebar($left_sidebar_config['name']); ?>
+          </div>
+          <?php do_action('vizeon_after_sidebar'); ?>
+        </div>
+      <?php endif ?>
+
+      <!-- Right Sidebar -->
+      <?php if ($right_sidebar_config['active']) : ?>
+        <div class="sidebar wp-sidebar sidebar-right <?php echo esc_attr($right_sidebar_config['class']); ?>">
+          <?php do_action('vizeon_before_sidebar'); ?>
+          <div class="sidebar-inner">
+            <?php dynamic_sidebar($right_sidebar_config['name']); ?>
+          </div>
+          <?php do_action('vizeon_after_sidebar'); ?>
+        </div>
+      <?php endif ?>
+    </div>
   </div>
 
   <?php

@@ -26,11 +26,3 @@ $class_grid = vizeon_calc_class_grid($xcolumns);
 <div class="clearfix"></div>
 <div class="products_wrapper grid-view">
    <div class="products <?php echo esc_attr($class_grid) ?>">
-   <!-- <div class="my-3" style="font-family: 'Montserrat';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 20px;
-      line-height: 28px;
-      color: #2E3A5B;
-      ">Ắc quy Lithium xe máy Expert</div> -->
-   <!-- <div class="products <?php echo esc_attr($class_grid) ?>"> -->

@@ -112,9 +112,10 @@ $classes[] = 'product-block product';
        */
       do_action('woocommerce_after_shop_loop_item_title');
       ?>
-      <div class="product-meta">
+      <div class="product-meta" style="border: 1px solid E9EAEA;
+    padding: 33px;">
          <div class="clearfix"></div>
-         <h3 class="shop-loop-title"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
+         <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
          <?php if (is_woocommerce() && $woo_display == 'list') { ?>
             <div class="shop-loop-description hidden">
@@ -122,7 +123,7 @@ $classes[] = 'product-block product';
             </div>
          <?php } ?>
 
-         <div class="shop-loop-after-title">
+         <div class="shop-loop-after-title" style="text-align: center;">
 
             <div class="shop-loop-price" style="font-family: 'Montserrat';
                font-style: normal;
