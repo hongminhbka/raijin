@@ -97,37 +97,37 @@ $woo_display = vizeon_display_modes_value();
                 Raijin có đủ sản phẩm cho tất cả các dòng xe
               </div>
               <div class="row my-2">
-                <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
                   height: 42px;
                   border: 1px solid #596481;
                   color: #596481;
                   background-color: #ffffff;
-                  border-radius: 5px;">Honda</button>
+                  border-radius: 5px;" class="my-1">Honda</button>
                 </div>
-                <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
                   height: 42px;
                   border: 1px solid #596481;
                   color: #596481;
                   background-color: #ffffff;
-                  border-radius: 5px;">Yamaha</button>
+                  border-radius: 5px;" class="my-1">Yamaha</button>
                 </div>
-                <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
                     height: 42px;
                     border: 1px solid #596481;
                     color: #596481;
                     background-color: #ffffff;
-                    border-radius: 5px;">Piaggio</button>
+                    border-radius: 5px;" class="my-1">Piaggio</button>
                 </div>
-                <div class="col-xs-1	col-sm-2	col-md-3	col-lg-3">
+                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
                     height: 42px;
                     border: 1px solid #596481;
                     color: #596481;
                     background-color: #ffffff;
-                    border-radius: 5px;">Xe hãng khác</button>
+                    border-radius: 5px;" class="my-1">Xe hãng khác</button>
                 </div>
               </div>
             </div>
