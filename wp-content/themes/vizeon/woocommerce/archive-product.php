@@ -290,15 +290,14 @@ $woo_display = vizeon_display_modes_value();
           <?php do_action('vizeon_after_sidebar'); ?>
         </div>
       <?php endif ?>
-    </div>
-    <div style="
-        background-color: #222628; 
-        position: absolute ;
-         width: 100%;
-         height: 375px;
-         left: 0px;
-         top: 93%;
-         z-index: 1">
+      <div style="
+          background-color: #222628; 
+          position: absolute ;
+           width: 100%;
+           height: 375px;
+           left: 0px;
+           top: 93%;">
+      </div>
     </div>
     <div class="mt-3 mb-3" style="
         font-family: 'Montserrat';
@@ -308,7 +307,7 @@ $woo_display = vizeon_display_modes_value();
         line-height: 28px;
         color: #2E3A5B;
     ">Ắc quy Lithium xe máy Luxury</div>
-    <div class="main-page-content row" style="position:relative  ;z-index: 3">
+    <div class="main-page-content row">
       <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
 
         <div id="wp-content" class="wp-content">
