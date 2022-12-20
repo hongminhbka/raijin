@@ -103,7 +103,7 @@ $woo_display = vizeon_display_modes_value();
                   border: 1px solid #596481;
                   color: #596481;
                   background-color: #ffffff;
-                  border-radius: 5px;" class="my-1">Honda</button>
+                  border-radius: 5px;" class="my-2">Honda</button>
                 </div>
                 <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
@@ -111,7 +111,7 @@ $woo_display = vizeon_display_modes_value();
                   border: 1px solid #596481;
                   color: #596481;
                   background-color: #ffffff;
-                  border-radius: 5px;" class="my-1">Yamaha</button>
+                  border-radius: 5px;" class="my-2">Yamaha</button>
                 </div>
                 <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
@@ -119,7 +119,7 @@ $woo_display = vizeon_display_modes_value();
                     border: 1px solid #596481;
                     color: #596481;
                     background-color: #ffffff;
-                    border-radius: 5px;" class="my-1">Piaggio</button>
+                    border-radius: 5px;" class="my-2">Piaggio</button>
                 </div>
                 <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <button type="button" style="    width: 100%;
@@ -127,7 +127,7 @@ $woo_display = vizeon_display_modes_value();
                     border: 1px solid #596481;
                     color: #596481;
                     background-color: #ffffff;
-                    border-radius: 5px;" class="my-1">Xe hãng khác</button>
+                    border-radius: 5px;" class="my-2">Xe hãng khác</button>
                 </div>
               </div>
             </div>
