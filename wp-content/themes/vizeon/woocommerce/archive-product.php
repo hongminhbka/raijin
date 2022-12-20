@@ -213,14 +213,14 @@ $woo_display = vizeon_display_modes_value();
 
         <div id="wp-content" class="wp-content">
 
-          <?php if (apply_filters('woocommerce_show_page_title', true)) : ?>
+          <!-- <?php if (apply_filters('woocommerce_show_page_title', true)) : ?>
 
             <h1 class="page-title hidden"><?php woocommerce_page_title(); ?></h1>
 
           <?php endif; ?>
 
           <?php do_action('woocommerce_archive_description'); ?>
-          <?php woocommerce_product_subcategories(); ?>
+          <?php woocommerce_product_subcategories(); ?> -->
           <?php if (have_posts()) : ?>
             <div class="shop-loop-container">
               <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
