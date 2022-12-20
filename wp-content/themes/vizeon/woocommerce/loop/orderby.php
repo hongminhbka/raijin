@@ -11,9 +11,9 @@
 if (!defined('ABSPATH')) exit; // Exit if accessed directly
 ?>
 <form class="woocommerce-ordering pull-right" method="get" style="float: left !important;">
-	<select name="orderby" class="orderby" style="background-color: #222628;">
+	<select name="orderby" class="orderby">
 		<?php foreach ($catalog_orderby_options as $id => $name) : ?>
-			<option style="color: #ffffff;" value="<?php echo esc_attr($id); ?>" <?php selected($orderby, $id); ?>><?php echo esc_html($name); ?></option>
+			<option style="color: #ffffff;background-color: #222628;" value="<?php echo esc_attr($id); ?>" <?php selected($orderby, $id); ?>><?php echo esc_html($name); ?></option>
 		<?php endforeach; ?>
 	</select>
 	<?php
