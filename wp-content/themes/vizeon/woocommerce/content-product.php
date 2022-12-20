@@ -112,7 +112,7 @@ $classes[] = 'product-block product';
        */
       do_action('woocommerce_after_shop_loop_item_title');
       ?>
-      <div class="product-meta" style="position: relative; z-index: 3">
+      <div class="product-meta">
          <div class="clearfix"></div>
          <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
@@ -155,12 +155,6 @@ $classes[] = 'product-block product';
             <a class="d-block" href="<?php esc_url(the_permalink()); ?>" style="color: #596481; text-align: center;"><i aria-hidden="true"></i><span style="color: #596481;"> Xem chi tiết</span></a>
          </div>
       </div>
-      <div style="background-color: #222628; position: absolute;
-         width: 100% vw;
-         height: 375px;
-         left: 0px;
-         top: 50%;
-         z-index: 1">
-      </div>
+     
    </div>
 </div>
