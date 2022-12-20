@@ -27,9 +27,9 @@ $class_grid = vizeon_calc_class_grid($xcolumns);
 <div class="products_wrapper grid-view" style="position:relative  ;z-index: 3">
    <div class="products <?php echo esc_attr($class_grid) ?>">
       <div style="background-color: #222628; position: absolute ;
-         width: 100% vw;
+         width: 100%;
          height: 375px;
          left: 0px;
-         top: 100%;
+         top: 70%;
          z-index: 1">
       </div>
