@@ -224,7 +224,7 @@ $woo_display = vizeon_display_modes_value();
           <?php if (have_posts()) : ?>
             <div class="shop-loop-container">
               <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
-                <div class="woocommerce-filter clearfix">
+                <!-- <div class="woocommerce-filter clearfix">
                   <?php
                   /**
                    * woocommerce_before_shop_loop hook
@@ -234,7 +234,7 @@ $woo_display = vizeon_display_modes_value();
                    */
                   do_action('woocommerce_before_shop_loop');
                   ?>
-                </div>
+                </div> -->
 
                 <?php do_action('vizeon_woocommerce_active_filter');  ?>
 
