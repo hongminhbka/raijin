@@ -30,6 +30,6 @@ $class_grid = vizeon_calc_class_grid($xcolumns);
          width: 100% vw;
          height: 375px;
          left: 0px;
-         top: 50%;
+         top: 100%;
          z-index: 1">
       </div>
