@@ -297,7 +297,7 @@ $woo_display = vizeon_display_modes_value();
          width: 100%;
          height: 375px;
          left: 0px;
-         top: 80%;
+         top: 90%;
          z-index: 1">
     </div>
   </div>
