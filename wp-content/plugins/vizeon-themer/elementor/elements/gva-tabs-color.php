@@ -125,26 +125,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'show_label' => false,
 			]
 		);
-		$repeater->add_control(
-			'tab_background_color',
-			[
-				'label' 		=> __( 'Tab Background Color', 'vizeon-themer' ),
-				'type' 		=> Controls_Manager::COLOR,
-				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'background: {{VALUE}};',
-				]
-			]
-		);
-		$repeater->add_control(
-			'tab_color',
-			[
-				'label' 		=> __( 'Tab Color', 'vizeon-themer' ),
-				'type' 		=> Controls_Manager::COLOR,
-				'selectors' =>	[
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs {{CURRENT_ITEM}} a' => 'color: {{VALUE}};',
-				]
-			]
-		);
+		
 		$this->add_control(
 			'tabs',
 			[
@@ -161,8 +142,8 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 					[
 						'tab_title' => __( 'Financial Advice', 'vizeon-themer' ),
 						'tab_content' => __( 'Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'elementor' ),
-						'tab_background_color' => '#E74D57',
-						'tab_color'	=> '#ffff'
+						'tab_background_color' => '#ffffff',
+						'tab_color'	=> '#596481'
 					],
 					[
 						'tab_title' => __( 'Gobal Solutions', 'vizeon-themer' ),
@@ -182,7 +163,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 				'label' => __( 'Width Tab Item', 'vizeon-themer' ),
 				'type' => Controls_Manager::SLIDER,
 				'default' => [
-					'size' => 33,
+					'size' => 25,
 				],
 				'range' => [
 					'%' => [
@@ -191,7 +172,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 					],
 				],
 				'selectors' => [
-					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li' => 'width: {{SIZE}}%;',
+					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li' => 'width: 25%;',
 				],
 			]
 		);
@@ -233,7 +214,7 @@ class GVAElement_Tabs_Color extends GVAElement_Base {
 			[
 				'label' => __( 'Active Color', 'vizeon-themer' ),
 				'type' => Controls_Manager::COLOR,
-				'default' => '#18212e',
+				'default' => '#C40000',
 				'selectors' => [
 					'{{WRAPPER}} .gsc-tabs-color .nav_tabs > li.active a' => 'color: {{VALUE}};',
 				],

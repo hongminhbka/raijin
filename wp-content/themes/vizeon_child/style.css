@@ -4,3 +4,71 @@ Description: Child theme for the Vizeon themes
 Author: gaviathemes
 Template: vizeon
 */
+
+.menu-footer-menu-raijin-viet-nam-container ul li{
+    width: 100%;
+}
+
+.lien-he .gva-element-gva-call-to-action .gsc-call-to-action .sub-title {
+    min-height: 85px;
+}
+
+.lien-he .ecommerce {
+    border: 1px solid #E9EAEA;
+}
+
+.ecommerce .content {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.ecommerce .shopee {
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.ecommerce .lazada {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.ecommerce .gva-element-gva-call-to-action .title{
+    color: #2e3a5b;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 5px;
+}
+
+.ecommerce .gva-element-gva-call-to-action .sub-title{
+    color: #596481;    
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.call-request-now-form .form-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #2E3A5B;
+}
+
+.home-page .product-block .product-thumbnail{
+    background: #fff;
+    border-radius: 5px;
+    padding: 65px 50px;
+}
+.home-page .product-block .product-meta .shop-loop-title a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4F4;
+}
+
+.home-page .product-block .product-meta .shop-loop-title a:hover{
+    color: #C40000;
+}
+
+.home-page .product-block .product-meta .shop-loop-after-title .price{
+    color: #F4F4F4;
+}

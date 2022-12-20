@@ -28,7 +28,7 @@
    <article id="post-<?php echo esc_attr(get_the_ID()); ?>" <?php post_class('post'); ?>>
       <div class="post-thumbnail">
          <?php the_post_thumbnail( $thumbnail, array( 'alt' => get_the_title() ) ); ?>
-         <div class="post-author"><span><?php echo esc_html__('By ', 'vizeon') ?></span><?php echo get_the_author() ?></div>
+         <div class="post-author"><span>Đăng bởi&nbsp;</span><?php echo get_the_author() ?></div>
       </div>   
 
       <div class="entry-content">
@@ -43,7 +43,7 @@
             </div>
          </div>
 
-         <div class="read-more"><a class="btn-inline" href="<?php echo esc_url( get_permalink() ) ?>"><?php echo esc_html__( 'Read more ', 'vizeon' ) ?></a></div>
+         <div class="read-more"><a class="btn-inline" href="<?php echo esc_url( get_permalink() ) ?>">Chi tiết</a></div>
          
       </div>
    </article>   

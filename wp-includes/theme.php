@@ -2083,7 +2083,7 @@ function get_theme_starter_content() {
 			'recent-posts'       => array(
 				'recent-posts',
 				array(
-					'title' => _x( 'Recent Posts', 'Theme starter content' ),
+					'title' => _x( 'Tin tức', 'Theme starter content' ),
 				),
 			),
 			'search'             => array(

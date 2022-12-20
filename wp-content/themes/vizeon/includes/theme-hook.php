@@ -22,7 +22,7 @@ function vizeon_style_breadcrumb(){
   if(get_post_meta($post_id, 'vizeon_no_breadcrumbs', true) == true){
     $show_no_breadcrumbs = true;
   }
-  $breadcrumb_padding_top = vizeon_get_option('breadcrumb_padding_top', '100'); //275
+  $breadcrumb_padding_top = vizeon_get_option('breadcrumb_padding_top', '275'); //275
   $breadcrumb_padding_bottom = vizeon_get_option('breadcrumb_padding_bottom', '100');
   $breadcrumb_show_title = vizeon_get_option('breadcrumb_show_title', '1');
   $breadcrumb_bg_color = vizeon_get_option('breadcrumb_background_color', '1');;
@@ -51,7 +51,7 @@ function vizeon_style_breadcrumb(){
 
   //Breadcrumb category and tag products
   if(vizeon_woocommerce_activated() && (is_product_tag() || is_product_category() || is_shop() || is_product()) ){
-    $breadcrumb_padding_top = vizeon_get_option('woo_breadcrumb_padding_top', '100');
+    $breadcrumb_padding_top = vizeon_get_option('woo_breadcrumb_padding_top', '275');
     $breadcrumb_padding_bottom = vizeon_get_option('woo_breadcrumb_padding_bottom', '100');
     $breadcrumb_show_title = vizeon_get_option('woo_breadcrumb_show_title', '1');
     $breadcrumb_bg_color = vizeon_get_option('woo_breadcrumb_background_color', '1');;
@@ -90,7 +90,7 @@ function vizeon_style_breadcrumb(){
   if(is_home()) { // Home Index
     $breadcrumb_show_title = true;
     $title = esc_html__( 'Latest posts', 'vizeon' );
-    $breadcrumb_padding_top = '100';
+    $breadcrumb_padding_top = '275';
     $breadcrumb_padding_bottom = '100';
     $breadcrumb_text_align = 'text-center';
     $breadcrumb_text_style = 'text-light';
@@ -122,7 +122,13 @@ function vizeon_style_breadcrumb(){
       }
     }
     if(!$image_background_breadcrumb) {
-      $image_background_breadcrumb = VIZEON_THEME_URL . '/images/bg-breadcrumb.jpg';
+      $thumbnail_url_link = get_the_post_thumbnail_url(get_the_ID(),'full');
+      if($thumbnail_url_link){
+        $image_background_breadcrumb = $thumbnail_url_link;
+      }
+      else{
+        $image_background_breadcrumb = VIZEON_THEME_URL . '/images/bg-breadcrumb.jpg';
+      }      
     }
     $styles[] = 'background-image: url(\'' . $image_background_breadcrumb . '\')';
   }

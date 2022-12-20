@@ -1748,20 +1748,24 @@ table.variations a.reset_variations {
 }
 
 .single-product .entry-summary .price {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 400;
   color: #E74D57;
-  margin: 18px 0 16px;
+  font-size: 24px !important ;
+  margin: 0px 0px;
 }
 
 .single-product .entry-summary .price del {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
-  color: #999 !important;
+  color: #E74D57 !important;
+  text-decoration: none !important;
 }
 
 .single-product .entry-summary .price ins {
   text-decoration: none;
+  display: none !important;
+  margin: 0px !important;
 }
 
 .single-product .entry-summary .quantity input.qty {
@@ -1913,6 +1917,7 @@ table.variations a.reset_variations {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   color: transparent;
+  display: none;
 }
 
 .single-product .product-single-inner a.compare:after {

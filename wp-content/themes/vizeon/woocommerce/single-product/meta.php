@@ -23,7 +23,6 @@ $sku = $product->get_sku() ? $product->get_sku() : esc_html__( 'n/a', 'vizeon' )
 
 	<?php endif; ?>
 
-     <?php echo wc_get_product_category_list( $product->get_id(), ', ', '<span class="posted_in">' . _n( '<span class="title">Category:</span>', '<span class="title">Categories:</span>', count( $product->get_category_ids() ), 'vizeon' ) . ' ', '</span>' ); ?>
 
    <?php echo wc_get_product_tag_list( $product->get_id(), ', ', '<span class="tagged_as">' . _n( '<span class="title">Tag:</span>', '<span class="title">Tags:</span>', count( $product->get_tag_ids() ), 'vizeon' ) . ' ', '</span>' ); ?>
 

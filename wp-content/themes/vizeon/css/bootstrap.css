@@ -30,7 +30,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", Sans-serif;
   font-weight: 400;
   color: #747b86;
   text-align: left;
@@ -326,7 +326,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Poppins";
+  font-family: "Montserrat", Sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #18212e;
@@ -2465,6 +2465,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
+  background-color: white;
+  border: 1px solid #ebebeb;
 }
 
 .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active {

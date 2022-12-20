@@ -98,7 +98,10 @@
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-    user-select: none; }
+    user-select: none; 
+    border: 1px solid #E9EAEA;
+    height: 100px;
+  }
   .owl-carousel.owl-grab {
     cursor: move;
     cursor: -webkit-grab;
@@ -125,7 +128,7 @@
   -o-transition: opacity 400ms ease;
   transition: opacity 400ms ease; }
 .owl-carousel .owl-item img {
-  transform-style: preserve-3d; }
+  transform-style: preserve-3d; max-height: 75px;max-height: 75px;padding-top: 20px;padding-bottom: 5px;}
 
 /* 
  * 	Owl Carousel - Video Plugin
