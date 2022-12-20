@@ -200,7 +200,7 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div class="mt-5" style="
+    <div class="mt-3 mb-1" style="
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
@@ -208,7 +208,7 @@ $woo_display = vizeon_display_modes_value();
         line-height: 28px;
         color: #2E3A5B;
     ">Ắc quy Lithium xe máy Expert</div>
-    <div class="main-page-content row mt-2" >
+    <div class="main-page-content row" >
       <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
 
         <div id="wp-content" class="wp-content">
