@@ -290,13 +290,13 @@ $woo_display = vizeon_display_modes_value();
           <?php do_action('vizeon_after_sidebar'); ?>
         </div>
       <?php endif ?>
-       <div style="background-color: #222628; position: absolute ;
+    </div>
+    <div style="background-color: #222628; position: absolute ;
          width: 100%;
          height: 375px;
          left: 0px;
          bottom: -20%;
          z-index: 1">
-      </div>
     </div>
   </div>
 
