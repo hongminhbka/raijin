@@ -152,8 +152,8 @@ $classes[] = 'product-block product';
             </div>
          </div>
          <div class="justify-center" style="border: 1px solid #596481; border-radius: 3px">
-            <a class="d-block" href="<?php esc_url(the_permalink()); ?>" style="color: #596481;"><i aria-hidden="true"></i><span class="justify-center"> Xem chi tiết</span></a>
-         </div>        
+            <a class="d-block" href="<?php esc_url(the_permalink()); ?>" style="color: #596481; text-align: center;"><i aria-hidden="true"></i><span style="color: #596481;"> Xem chi tiết</span></a>
+         </div>
       </div>
    </div>
 </div>
