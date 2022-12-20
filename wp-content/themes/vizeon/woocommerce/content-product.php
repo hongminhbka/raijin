@@ -55,8 +55,8 @@ $classes[] = 'product-block product';
 
 ?>
 
-<div <?php post_class($classes); ?> style="padding: 33px;border: 1px solid #E9EAEA;margin-bottom:0px !important; width: auto">
-   <div class="product-block-inner clearfix" style="height: auto !important;">
+<div <?php post_class($classes); ?> style="padding: 33px;border: 1px solid #E9EAEA;margin-bottom:0px !important;">
+   <div class="product-block-inner clearfix" style="min-height: 350px ">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 
       <div class="product-thumbnail">
@@ -112,7 +112,7 @@ $classes[] = 'product-block product';
        */
       do_action('woocommerce_after_shop_loop_item_title');
       ?>
-      <div class="product-meta" >
+      <div class="product-meta">
          <div class="clearfix"></div>
          <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
