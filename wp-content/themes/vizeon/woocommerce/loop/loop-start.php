@@ -33,4 +33,4 @@ $class_grid = vizeon_calc_class_grid($xcolumns);
       line-height: 28px;
       color: #2E3A5B;
       ">Ắc quy Lithium xe máy Expert</div> -->
-   <div class="products <?php echo esc_attr($class_grid) ?>">
+   <!-- <div class="products <?php echo esc_attr($class_grid) ?>"> -->
