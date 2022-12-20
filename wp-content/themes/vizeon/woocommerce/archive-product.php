@@ -200,7 +200,7 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div class="mt-3 mb-1" style="
+    <div class="mt-3 mb-3" style="
         font-family: 'Montserrat';
         font-style: normal;
         font-weight: 500;
