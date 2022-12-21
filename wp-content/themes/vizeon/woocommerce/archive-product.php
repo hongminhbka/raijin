@@ -392,7 +392,7 @@ $woo_display = vizeon_display_modes_value();
       <?php endif ?>
     </div>
   </div>
-  <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg); height: 850px ; width: 100vw ;padding: 10% 30% 20% 13%;">
+  <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg); height: 850px ; width: 100vw ;padding: 10% 15% 27% 7%;">
     <div style="background-color: #ffffff ; padding: 16px 25px;" class="pa-3">
       <div style="
         font-family: 'Montserrat';
