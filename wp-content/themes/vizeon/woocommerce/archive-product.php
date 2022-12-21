@@ -390,7 +390,7 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg);">
+    <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg); height: 100%">
 
     </div>
   </div>
