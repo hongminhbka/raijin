@@ -5,7 +5,7 @@ Author: gaviathemes
 Template: vizeon
 */
 
-.menu-footer-menu-raijin-viet-nam-container ul li{
+.menu-footer-menu-raijin-viet-nam-container ul li,.menu-footer-menu-chinh-sach-container ul li{
     width: 100%;
 }
 
@@ -72,3 +72,4 @@ Template: vizeon
 .home-page .product-block .product-meta .shop-loop-after-title .price{
     color: #F4F4F4;
 }
+
