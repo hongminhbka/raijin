@@ -55,8 +55,8 @@ $classes[] = 'product-block product';
 
 ?>
 
-<div <?php post_class($classes); ?>>
-   <div class="product-block-inner clearfix" style="height: 400px !important;">
+<div <?php post_class($classes); ?> style="padding: 20px;border: 1px solid #E9EAEA;margin-bottom:0px !important;">
+   <div class="product-block-inner clearfix" style="min-height: 350px ">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 
       <div class="product-thumbnail">
@@ -114,7 +114,7 @@ $classes[] = 'product-block product';
       ?>
       <div class="product-meta">
          <div class="clearfix"></div>
-         <h3 class="shop-loop-title"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
+         <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
          <?php if (is_woocommerce() && $woo_display == 'list') { ?>
             <div class="shop-loop-description hidden">
@@ -122,7 +122,7 @@ $classes[] = 'product-block product';
             </div>
          <?php } ?>
 
-         <div class="shop-loop-after-title">
+         <div class="shop-loop-after-title" style="text-align: center;">
 
             <div class="shop-loop-price" style="font-family: 'Montserrat';
                font-style: normal;
@@ -151,9 +151,10 @@ $classes[] = 'product-block product';
                ?>
             </div>
          </div>
-         <div class="justify-center">
-            <a href="<?php esc_url(the_permalink()); ?>" style="color: #596481;"><i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i><span> Xem chi tiết</span></a>
-         </div>        
+         <div class="justify-center" style="border: 1px solid #596481; border-radius: 3px">
+            <a class="d-block" href="<?php esc_url(the_permalink()); ?>" style="color: #596481; text-align: center;"><i aria-hidden="true"></i><span style="color: #596481;"> Xem chi tiết</span></a>
+         </div>
       </div>
+     
    </div>
 </div>
