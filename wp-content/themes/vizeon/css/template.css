@@ -11078,7 +11078,15 @@ ul.nav-tabs > li.active > a {
 .home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title,
 .home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title{
   text-align: left;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title a{
   color: #F4F4F4;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
+  color:#ffffff;
+  font-size: 20px;
 }
 
 .home-page .woocommerce .grid-view .product-block .product-thumbnail{
