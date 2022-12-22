@@ -11057,6 +11057,14 @@ ul.nav-tabs > li.active > a {
   color: #FFFFFF;
 }
 
+.woocommerce .grid-view .product-block .product-meta .shop-button{
+  text-align: center;
+  border: 1px solid #596481; 
+  border-radius: 3px;
+  color: #596481; 
+  text-align: center;
+}
+
 .home-page .woocommerce .grid-view .product-block {
   border: none;
 }
