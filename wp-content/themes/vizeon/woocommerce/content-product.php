@@ -55,7 +55,7 @@ $classes[] = 'product-block product';
 
 ?>
 
-<div <?php post_class($classes); ?> style="padding: 20px;border: 1px solid #E9EAEA;margin-bottom:0px !important;">
+<div <?php post_class($classes); ?>>
    <div class="product-block-inner clearfix" style="min-height: 350px ">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 

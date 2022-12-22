@@ -11029,3 +11029,9 @@ ul.nav-tabs > li.active > a {
     border: none !important;
   }
 }
+
+.woocommerce .grid-view .product-block {
+  padding: 20px;
+  border: 1px solid #E9EAEA;
+  margin-bottom: 0px !important;
+}
