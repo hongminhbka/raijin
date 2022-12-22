@@ -6226,7 +6226,6 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 
 .gva-posts-grid .post .read-more {
   display: block !important;
-  visible: visibility !important;
 }
 
 .gva-posts-carousel .post {
@@ -11007,4 +11006,19 @@ ul.nav-tabs > li.active > a {
 
 .product_list_widget ul li {
   display: inline;
+}
+
+@media (max-width: 767px) {
+  .post .entry-title{
+    margin: 0;
+  }
+  .post .entry-description{
+    padding: 0;
+  }
+  .post .read-more{
+    margin-top: 5px;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    border: none;
+  }
 }
