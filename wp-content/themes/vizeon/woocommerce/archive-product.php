@@ -207,6 +207,7 @@ $woo_display = vizeon_display_modes_value();
         font-size: 20px;
         line-height: 28px;
         color: #2E3A5B;
+        margin-bottom: 200px;
     ">Ắc quy Lithium xe máy Expert</div>
     <div class="main-page-content row" style="position:relative  ;z-index: 3">
       <div class="content-page <?php echo esc_attr($main_content_config['class']); ?>">
@@ -291,14 +292,14 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <!-- <div style="
-          background-color: #222628; 
-          position: relative; ;
-           width: 100%;
-           height: 375px;
-           left: 0px;
-           top: 93%;">
-      </div> -->
+    <div style="
+      background-color: #222628;
+    position: absolute;
+    width: 100%;
+    height: 375px;
+    left: 0px;
+    top: 50%;">
+    </div>
     <div class="mt-3 mb-3" style="
         font-family: 'Montserrat';
         font-style: normal;
@@ -390,8 +391,42 @@ $woo_display = vizeon_display_modes_value();
         </div>
       <?php endif ?>
     </div>
-    <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg);">
-
+  </div>
+  <div style="background-image: url(/wp-content/uploads/2015/12/bg_sp_2.svg); height: 850px ; width: 100vw ;padding: 10% 25% 20% 7%;">
+    <div style="background-color: #ffffff ; padding: 16px 25px;" class="pa-3">
+      <div style="
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2E3A5B;
+        ">
+        Consectetur adipisicing elit sed Consectetur adipisicing elit sed
+      </div>
+      <div class="mt-1 mb-2" style="
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        color: #2E3A5B;
+        ">
+        Consectetur adipisicing elit sed Consectetur adipisicing elit sed
+      </div>
+      <div style="
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #2E3A5B;
+      ">
+        Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore etConsectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore et
+        Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore et
+        Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore etConsectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore et
+        Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim Consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim incididunt ut labore et
+      </div>
     </div>
   </div>
 
