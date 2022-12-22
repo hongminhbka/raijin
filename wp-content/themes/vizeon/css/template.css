@@ -11013,9 +11013,6 @@ ul.nav-tabs > li.active > a {
     margin-bottom: 12px;
     border: 1px solid #E9EAEA;
   }
-  .gva-posts-grid .post .post-thumbnail img{
-    max-height: 150px;
-  }
   .post .entry-content{
     padding: 5px;
   }
@@ -11029,6 +11026,6 @@ ul.nav-tabs > li.active > a {
     margin-top: 5px;
   }
   .owl-carousel.owl-drag .owl-item {
-    border: none;
+    border: none !important;
   }
 }
