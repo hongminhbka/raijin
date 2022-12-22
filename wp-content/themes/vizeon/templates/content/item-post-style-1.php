@@ -28,7 +28,7 @@
    <article id="post-<?php echo esc_attr(get_the_ID()); ?>" <?php post_class('post'); ?>>
       <div class="post-thumbnail">
          <?php the_post_thumbnail( $thumbnail, array( 'alt' => get_the_title() ) ); ?>
-         <div class="post-author"><span>Đăng bởi&nbsp;</span><?php echo get_the_author() ?></div>
+         <div class="post-category"><?php echo get_the_category() ?></div>
       </div>   
 
       <div class="entry-content">

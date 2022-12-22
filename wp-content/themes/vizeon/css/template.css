@@ -7531,7 +7531,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   min-height: 350px;
 }
 
-.post .post-thumbnail .post-author {
+.post .post-thumbnail .post-author, .post .post-thumbnail .post-category {
   background: #ffec4e;
   color: #000;
   position: absolute;
