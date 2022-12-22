@@ -11112,6 +11112,5 @@ ul.nav-tabs > li.active > a {
 }
 
 .home-page .woocommerce .grid-view .product-block .product-thumbnail:hover{
-  border: 1px solid #E9EAEA;
-  background: #FCF2F2;
+  border: 1px solid #C40000;
 }
