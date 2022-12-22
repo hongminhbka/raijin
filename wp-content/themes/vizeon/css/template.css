@@ -11033,8 +11033,30 @@ ul.nav-tabs > li.active > a {
 .woocommerce .grid-view .product-block {
   padding: 20px;
   border: 1px solid #E9EAEA;
-  margin-bottom: 0px !important;
+  margin-bottom: 0px;
 }
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-title,
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title{
+  text-align: center;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:#BDBEBF;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-after{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
 .home-page .woocommerce .grid-view .product-block {
   border: none;
 }
