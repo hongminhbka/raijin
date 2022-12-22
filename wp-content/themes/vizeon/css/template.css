@@ -11114,3 +11114,11 @@ ul.nav-tabs > li.active > a {
 .home-page .woocommerce .grid-view .product-block .product-thumbnail:hover{
   border: 1px solid #C40000;
 }
+
+.home-page .gva-element-gva-counter .milestone-block .box-content .milestone-text a {
+  color: #FFFFFF;
+}
+
+.home-page .gva-element-gva-counter .milestone-block .box-content .milestone-text a:hover {
+  color: #FFFFFF;
+}
