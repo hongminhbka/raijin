@@ -11094,7 +11094,7 @@ ul.nav-tabs > li.active > a {
    vertical-align: middle;
 }
 
-.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
   color:#ffffff;
   font-size: 20px;
 }
