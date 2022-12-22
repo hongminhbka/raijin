@@ -11061,13 +11061,20 @@ ul.nav-tabs > li.active > a {
   text-align: center;
   border: 1px solid #596481; 
   border-radius: 3px;
-  color: #596481; 
-  text-align: center;
+  color: #596481;
 }
 
 .home-page .woocommerce .grid-view .product-block {
   border: none;
 }
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button{
+  text-align: left;
+  border: none; 
+  border-radius: none;
+  color: #BDBEBF;
+}
+
 .home-page .product-block .product-thumbnail{
   background: #fff;
   border-radius: 5px;
