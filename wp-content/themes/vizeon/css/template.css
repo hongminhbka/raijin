@@ -11087,12 +11087,11 @@ ul.nav-tabs > li.active > a {
 
 .home-page .woocommerce .grid-view .product-block .product-meta .shop-button a::before
 {
-  font-family: "Font Awesome 5 Free"; 
-  content: "\f178";
-  display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
-  font-weight: 900;
+  font-family: FontAwesome;
+   content: "\f178";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
 }
 
 .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
