@@ -55,7 +55,7 @@ $classes[] = 'product-block product';
 
 ?>
 
-<div <?php post_class($classes); ?> style="padding: 20px;border: 1px solid #E9EAEA;margin-bottom:0px !important;">
+<div <?php post_class($classes); ?>>
    <div class="product-block-inner clearfix" style="min-height: 350px ">
       <?php do_action('woocommerce_before_shop_loop_item'); ?>
 
@@ -114,7 +114,7 @@ $classes[] = 'product-block product';
       ?>
       <div class="product-meta">
          <div class="clearfix"></div>
-         <h3 class="shop-loop-title" style="text-align: center;"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
+         <h3 class="shop-loop-title"><a href="<?php esc_url(the_permalink()); ?>"><?php the_title(); ?></a></h3>
 
          <?php if (is_woocommerce() && $woo_display == 'list') { ?>
             <div class="shop-loop-description hidden">
@@ -122,25 +122,11 @@ $classes[] = 'product-block product';
             </div>
          <?php } ?>
 
-         <div class="shop-loop-after-title" style="text-align: center;">
-
-            <div class="shop-loop-price" style="font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 400;
-               font-size: 16px;
-               line-height: 24px;
-               color:#BDBEBF !important;
-               ">
+         <div class="shop-loop-after-title">
+            <div class="shop-loop-price">
                <?php woocommerce_template_loop_price(); ?>
             </div>
-            <div class="shop-loop-after" style="
-               font-family: 'Montserrat';
-               font-style: normal;
-               font-weight: 500;
-               font-size: 20px;
-               line-height: 28px;
-               color: #FFFFFF !important;
-                           ">
+            <div class="shop-loop-after">
                <?php
                /**
                 * woocommerce_after_shop_loop_item hook
@@ -151,8 +137,8 @@ $classes[] = 'product-block product';
                ?>
             </div>
          </div>
-         <div class="justify-center" style="border: 1px solid #596481; border-radius: 3px">
-            <a class="d-block" href="<?php esc_url(the_permalink()); ?>" style="color: #596481; text-align: center;"><i aria-hidden="true"></i><span style="color: #596481;"> Xem chi tiết</span></a>
+         <div class="shop-button">
+            <a class="d-block" href="<?php esc_url(the_permalink()); ?>"><span> Xem chi tiết</span></a>
          </div>
       </div>
      

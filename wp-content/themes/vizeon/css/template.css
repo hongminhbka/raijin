@@ -5495,7 +5495,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   font-size: 70px;
   line-height: 1;
   color: #18212e;
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Montserrat", Sans-serif;
 }
 
 .milestone-block.style-1 .box-content .milestone-content .milestone-text {
@@ -5511,7 +5511,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   font-size: 70px;
   line-height: 1;
   color: #18212e;
-  font-family: "Covered By Your Grace", cursive;
+  font-family: "Montserrat", Sans-serif;
 }
 
 .milestone-block.style-2 .box-content .milestone-content .milestone-text {
@@ -6226,7 +6226,6 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 
 .gva-posts-grid .post .read-more {
   display: block !important;
-  visible: visibility !important;
 }
 
 .gva-posts-carousel .post {
@@ -7532,7 +7531,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   min-height: 350px;
 }
 
-.post .post-thumbnail .post-author {
+.post .post-thumbnail .post-author, .post .post-thumbnail .post-category {
   background: #ffec4e;
   color: #000;
   position: absolute;
@@ -11007,4 +11006,119 @@ ul.nav-tabs > li.active > a {
 
 .product_list_widget ul li {
   display: inline;
+}
+
+@media (max-width: 767px) {
+  .gva-posts-grid .post{
+    margin-bottom: 12px;
+    border: 1px solid #E9EAEA;
+  }
+  .post .entry-content{
+    padding: 5px;
+  }
+  .post .entry-title{
+    margin: 0;
+  }
+  .post .entry-description{
+    padding: 0;
+  }
+  .post .read-more{
+    margin-top: 5px;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    border: none !important;
+  }
+}
+
+.woocommerce .grid-view .product-block {
+  padding: 20px;
+  border: 1px solid #E9EAEA;
+  margin-bottom: 0px;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-title,
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title{
+  text-align: center;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color:#BDBEBF;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-after{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+
+.woocommerce .grid-view .product-block .product-meta .shop-button{
+  text-align: center;
+  border: 1px solid #596481; 
+  border-radius: 3px;
+  color: #596481;
+}
+
+.home-page .woocommerce .grid-view .product-block {
+  border: none;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button{
+  text-align: left;
+  border: none; 
+  border-radius: unset;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title,
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title{
+  text-align: left;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title a,
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button a
+{
+  color: #F4F4F4;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button a::before
+{
+  font-family: FontAwesome;
+   content: "\f178";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
+  color:#ffffff;
+  font-size: 20px;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title a:hover,
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button a:hover
+{
+  color: #C40000;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-thumbnail{
+  background: #fff;
+  border-radius: 5px;
+  padding: 65px 50px;
+}
+
+.home-page .woocommerce .grid-view .product-block .product-thumbnail:hover{
+  border: 1px solid #C40000;
+}
+
+.home-page .gva-element-gva-counter .milestone-block .box-content .milestone-text a {
+  color: #FFFFFF;
+}
+
+.home-page .gva-element-gva-counter .milestone-block .box-content .milestone-text a:hover {
+  color: #FFFFFF;
 }
