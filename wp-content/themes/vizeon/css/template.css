@@ -11035,3 +11035,23 @@ ul.nav-tabs > li.active > a {
   border: 1px solid #E9EAEA;
   margin-bottom: 0px !important;
 }
+
+.home-page .product-block .product-thumbnail{
+  background: #fff;
+  border-radius: 5px;
+  padding: 65px 50px;
+}
+.home-page .product-block .product-meta .shop-loop-title a{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F4F4;
+}
+
+.home-page .product-block .product-meta .shop-loop-title a:hover{
+  color: #C40000;
+}
+
+.home-page .product-block .product-meta .shop-loop-after-title .price{
+  color: #F4F4F4;
+}
