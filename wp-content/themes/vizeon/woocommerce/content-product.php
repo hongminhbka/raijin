@@ -138,7 +138,7 @@ $classes[] = 'product-block product';
             </div>
          </div>
          <div class="shop-button">
-            <a class="d-block" href="<?php esc_url(the_permalink()); ?>"><i aria-hidden="true"></i><span style="color: #596481;"> Xem chi tiết</span></a>
+            <a class="d-block" href="<?php esc_url(the_permalink()); ?>"><span> Xem chi tiết</span></a>
          </div>
       </div>
      
