@@ -11099,8 +11099,19 @@ ul.nav-tabs > li.active > a {
   font-size: 20px;
 }
 
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title a:hover,
+.home-page .woocommerce .grid-view .product-block .product-meta .shop-button a:hover
+{
+  color: #C40000;
+}
+
 .home-page .woocommerce .grid-view .product-block .product-thumbnail{
   background: #fff;
   border-radius: 5px;
   padding: 65px 50px;
+}
+
+
+.home-page .woocommerce .grid-view .product-block .product-thumbnail:hover{
+  border: 2px solid #C40000;
 }
