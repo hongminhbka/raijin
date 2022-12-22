@@ -11079,22 +11079,8 @@ ul.nav-tabs > li.active > a {
   text-align: center;
 }
 
-.home-page .woocommerce .product-block .product-thumbnail{
+.home-page .woocommerce .grid-view .product-block .product-thumbnail{
   background: #fff;
   border-radius: 5px;
   padding: 65px 50px;
-}
-.home-page .woocommerce .product-block .product-meta .shop-loop-title a{
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  color: #F4F4F4;
-}
-
-.home-page .woocommerce .product-block .product-meta .shop-loop-title a:hover{
-  color: #C40000;
-}
-
-.home-page .woocommerce .product-block .product-meta .shop-loop-after-title .price{
-  color: #F4F4F4;
 }
