@@ -129,7 +129,7 @@ $woo_display = vizeon_display_modes_value();
                   </a>
                 </div>
                 <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <a href="/san-pham/yamaha">
+                  <a href="/san-pham/khac">
                     <button type="button" style="    width: 100%;
                     height: 42px;
                     border: 1px solid #596481;
