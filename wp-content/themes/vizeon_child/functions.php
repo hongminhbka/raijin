@@ -12,8 +12,3 @@ function vizeon_child_scripts() {
    wp_enqueue_style( 'vizeon-child-style', get_stylesheet_uri());
 }
 add_action( 'wp_enqueue_scripts', 'vizeon_child_scripts', 9999 );
-
-function wp_dereg_script_comment_reply(){
-   wp_deregister_script( 'comment-reply' );
-}
-add_action('init','wp_dereg_script_comment_reply');
