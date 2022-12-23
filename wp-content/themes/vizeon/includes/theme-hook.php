@@ -121,14 +121,15 @@ function vizeon_style_breadcrumb(){
     //     $image_background_breadcrumb = $breadcrumb_image;
     //   }
     // }
-    if(!$image_background_breadcrumb) {
-      $thumbnail_url_link = get_the_post_thumbnail_url(get_the_ID(),'full');
-      if($thumbnail_url_link){
-        $image_background_breadcrumb = $thumbnail_url_link;
-      }
-      else{
-        $image_background_breadcrumb = VIZEON_THEME_URL . '/images/bg-breadcrumb.jpg';
-      }      
+    $thumbnail_url_link = get_the_post_thumbnail_url(get_the_ID(),'full');
+    if($thumbnail_url_link){
+      $image_background_breadcrumb = $thumbnail_url_link;
+    }
+    else{
+      $image_background_breadcrumb = VIZEON_THEME_URL . '/images/bg-breadcrumb.jpg';
+    }
+    if( get_post_type() == 'post'){
+      $image_background_breadcrumb = VIZEON_THEME_URL . '/images/bg-breadcrumb.jpg';
     }
     $styles[] = 'background-image: url(\'' . $image_background_breadcrumb . '\')';
   }
