@@ -145,15 +145,15 @@ function vizeon_style_breadcrumb(){
   }
 
   if( get_post_type() == 'post'){
-    $title = esc_html__( 'Blog', 'vizeon' );
+    $title = 'Tin tức';
   }
 
   if(is_search()){
-    $title = esc_html__('Search', 'vizeon');
+    $title = 'Tìm kiếm';
   }
 
   if(is_product()){
-    $title = esc_html__('Product', 'vizeon');
+    $title = 'Sản phẩm';
   }
 
   $result['title'] = $title;
