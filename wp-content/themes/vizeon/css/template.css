@@ -11028,6 +11028,9 @@ ul.nav-tabs > li.active > a {
   .owl-carousel.owl-drag .owl-item {
     border: none !important;
   }
+  #home-page-category .elementor-container .elementor-row{
+    width: 100%;
+  }
 }
 
 .woocommerce .grid-view .product-block {
@@ -11124,5 +11127,6 @@ ul.nav-tabs > li.active > a {
 }
 
 #home-page-category .elementor-container .elementor-row{
-  width: 85%;
+  width: 93%;
 }
+
