@@ -107,7 +107,7 @@ function vizeon_style_breadcrumb(){
   $classes[] = $breadcrumb_text_style;
   $classes[] = $breadcrumb_text_align;
   if($breadcrumb_enable_image){
-    $image_background_breadcrumb = '';
+    // $image_background_breadcrumb = '';
     // if($breadcrumb_image){
     //   if(isset($breadcrumb_image['id']) && $breadcrumb_image['id'] && !is_numeric($breadcrumb_image)){
     //     if($breadcrumb_image['id'] && is_numeric($breadcrumb_image['id'])){
