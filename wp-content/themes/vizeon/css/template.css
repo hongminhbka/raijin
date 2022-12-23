@@ -11087,7 +11087,7 @@ ul.nav-tabs > li.active > a {
 
 .home-page .woocommerce .grid-view .product-block .product-meta .shop-button a::before
 {
-  font-family: FontAwesome;
+   font-family: FontAwesome;
    content: "\f178";
    display: inline-block;
    padding-right: 3px;
@@ -11121,4 +11121,8 @@ ul.nav-tabs > li.active > a {
 
 .home-page .gva-element-gva-counter .milestone-block .box-content .milestone-text a:hover {
   color: #FFFFFF;
+}
+
+#home-page-category .elementor-container .elementor-row{
+  width: 85%;
 }
