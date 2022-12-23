@@ -11029,7 +11029,17 @@ ul.nav-tabs > li.active > a {
     border: none !important;
   }
   #home-page-category .elementor-container .elementor-row{
-    width: 100%;
+    width: 100% !important;
+  }
+  .woocommerce .grid-view .product-block{
+    padding: 15px;
+  }
+  .home-page .woocommerce .grid-view .product-block .product-thumbnail{
+    padding: 15px 15px;
+  }
+  .home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-title a, 
+  .home-page .woocommerce .grid-view .product-block .product-meta .shop-button a{
+    color:#596481;
   }
 }
 
