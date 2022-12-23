@@ -11032,7 +11032,7 @@ ul.nav-tabs > li.active > a {
     width: 100% !important;
   }
   .woocommerce .grid-view .product-block{
-    padding: 15px !important;
+    padding: 5px 25px !important;
   }
   .home-page .woocommerce .grid-view .product-block .product-thumbnail{
     padding: 15px 15px !important;
