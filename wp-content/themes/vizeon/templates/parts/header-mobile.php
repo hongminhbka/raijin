@@ -11,7 +11,7 @@
       <div class="center text-center col-md-6 col-sm-6 col-xs-6 mobile-logo">
         <div class="logo-menu">
           <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-            <img src="<?php echo ((isset($vizeon_options['header_logo_mobile']['url']) && $vizeon_options['header_logo_mobile']['url']) ? $vizeon_options['header_logo_mobile']['url'] : get_template_directory_uri().'/images/logo-mobile.png'); ?>" alt="<?php bloginfo( 'name' ); ?>" />
+            <img width="148" height="51" src="<?php echo ((isset($vizeon_options['header_logo_mobile']['url']) && $vizeon_options['header_logo_mobile']['url']) ? $vizeon_options['header_logo_mobile']['url'] : get_template_directory_uri().'/images/logo-mobile.png'); ?>" alt="<?php bloginfo( 'name' ); ?>"/>
           </a>
         </div>
       </div>
