@@ -876,7 +876,7 @@ class Frontend extends App {
 	 */
 	public function get_stable_google_fonts_url( array $fonts ): string {
 		foreach ( $fonts as &$font ) {
-			$font = str_replace( ' ', '+', $font ) . ':100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic';
+			$font = str_replace( ' ', '+', $font ) . ':100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&display=swap';
 		}
 
 		// Defining a font-display type to google fonts.
