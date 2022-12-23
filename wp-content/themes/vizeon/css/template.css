@@ -5026,12 +5026,18 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
     padding: 30px 30px 0;
     text-align: left;
   }
+  .gsc-call-to-action.button-center .button-action {
+    margin-top: 10px;
+  }
 }
 
 @media (max-width: 767.98px) {
   .gsc-career .image-box {
     display: block;
     width: 100%;
+  }
+  .gsc-call-to-action.button-center .button-action {
+    margin-top: 5px;
   }
 }
 
@@ -10462,6 +10468,9 @@ body.page .content-page-inner h1.title {
   }
   .custom-breadcrumb .breadcrumb-container-inner .breadcrumb{
     font-size: 14px;
+  }
+  .custom-breadcrumb{
+    margin-bottom: 10px;
   }
 }
 
