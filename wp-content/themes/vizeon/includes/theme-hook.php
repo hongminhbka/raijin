@@ -108,19 +108,19 @@ function vizeon_style_breadcrumb(){
   $classes[] = $breadcrumb_text_align;
   if($breadcrumb_enable_image){
     $image_background_breadcrumb = '';
-    if($breadcrumb_image){
-      if(isset($breadcrumb_image['id']) && $breadcrumb_image['id'] && !is_numeric($breadcrumb_image)){
-        if($breadcrumb_image['id'] && is_numeric($breadcrumb_image['id'])){
-          $breadcrumb_image = $breadcrumb_image['id'];
-        }
-        // $image = wp_get_attachment_image_src( $breadcrumb_image, 'full');
-        // if(isset($image[0]) && $image[0]){
-        //   $image_background_breadcrumb = esc_url($image[0]);
-        // }
-      }elseif(!is_array($breadcrumb_image)){
-        $image_background_breadcrumb = $breadcrumb_image;
-      }
-    }
+    // if($breadcrumb_image){
+    //   if(isset($breadcrumb_image['id']) && $breadcrumb_image['id'] && !is_numeric($breadcrumb_image)){
+    //     if($breadcrumb_image['id'] && is_numeric($breadcrumb_image['id'])){
+    //       $breadcrumb_image = $breadcrumb_image['id'];
+    //     }
+    //     // $image = wp_get_attachment_image_src( $breadcrumb_image, 'full');
+    //     // if(isset($image[0]) && $image[0]){
+    //     //   $image_background_breadcrumb = esc_url($image[0]);
+    //     // }
+    //   }elseif(!is_array($breadcrumb_image)){
+    //     $image_background_breadcrumb = $breadcrumb_image;
+    //   }
+    // }
     if(!$image_background_breadcrumb) {
       $thumbnail_url_link = get_the_post_thumbnail_url(get_the_ID(),'full');
       if($thumbnail_url_link){
