@@ -24,7 +24,7 @@ if(isset($vizeon_options['header_logo']['url']) && $vizeon_options['header_logo'
   <meta name="MobileOptimized" content="320"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="profile" href="http://gmpg.org/xfn/11">
-  <link rel="preload" href="/assets/Pacifico-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="font">
   <?php wp_head(); ?>
 </head>
 
