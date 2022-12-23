@@ -11048,6 +11048,13 @@ ul.nav-tabs > li.active > a {
   .home-page .woocommerce .grid-view .product-block .product-meta .shop-loop-after-title .shop-loop-price .price{
     color:#2E3A5B !important;
   }
+  .home-page .woocommerce .grid-view .product-block .product-meta .shop-button{
+    text-align: center !important;
+  }
+  .home-page .woocommerce .grid-view .product-block .product-thumbnail .product-thumbnail-inner .swap-thumbnail a img{
+    max-height: 200px !important;
+    width: auto !important;
+  }
 }
 
 .woocommerce .grid-view .product-block {
