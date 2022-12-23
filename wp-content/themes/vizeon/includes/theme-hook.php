@@ -113,10 +113,10 @@ function vizeon_style_breadcrumb(){
         if($breadcrumb_image['id'] && is_numeric($breadcrumb_image['id'])){
           $breadcrumb_image = $breadcrumb_image['id'];
         }
-        $image = wp_get_attachment_image_src( $breadcrumb_image, 'full');
-        if(isset($image[0]) && $image[0]){
-          $image_background_breadcrumb = esc_url($image[0]);
-        }
+        // $image = wp_get_attachment_image_src( $breadcrumb_image, 'full');
+        // if(isset($image[0]) && $image[0]){
+        //   $image_background_breadcrumb = esc_url($image[0]);
+        // }
       }elseif(!is_array($breadcrumb_image)){
         $image_background_breadcrumb = $breadcrumb_image;
       }
