@@ -32,7 +32,7 @@
             <?php 
                $text = '';
                foreach((get_the_category()) as $category){
-                  $text+= '<a href="'. $category->url . '">'. $category->name . '</a>';                  
+                  $text = $text . '<a href="'. $category->url . '">'. $category->name . '</a>';                  
                }
                echo $text;
             ?>
