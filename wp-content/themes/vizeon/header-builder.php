@@ -25,6 +25,7 @@
   <meta name="MobileOptimized" content="320"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="preload" href="../fonts/Arial.woff" as="font" type="font/woff" crossorigin>
   <?php wp_head(); ?>
 </head>
 
