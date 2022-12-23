@@ -11051,9 +11051,11 @@ ul.nav-tabs > li.active > a {
   .home-page .woocommerce .grid-view .product-block .product-meta .shop-button{
     text-align: center !important;
   }
-  .home-page .woocommerce .grid-view .product-block .product-thumbnail .product-thumbnail-inner .swap-thumbnail a img{
-    max-height: 200px !important;
-    width: auto !important;
+  .home-page .woocommerce .grid-view .product-block .product-thumbnail .product-thumbnail-inner .swap-thumbnail a img,
+  .home-page .woocommerce .grid-view .product-block .product-thumbnail .product-thumbnail-inner .attachment-shop_catalog img
+  {
+    max-height: 200px;
+    width: auto;
   }
 }
 
