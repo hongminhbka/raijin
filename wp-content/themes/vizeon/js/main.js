@@ -241,6 +241,7 @@
   })
 
 })(jQuery);
-
-document.addEventListener('touchstart', onTouchStart, {passive: true});
+if ('ontouchstart' in document.documentElement) {
+  document.addEventListener('touchstart', onTouchStart, {passive: true});
+}
 
