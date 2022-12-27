@@ -1524,6 +1524,14 @@ table.variations a.reset_variations {
   margin-bottom: 30px;
 }
 
+.single-product .product-single-main .container .woocommerce-tabs-inner .tab-content .tab-pane {
+  max-width: 960px;
+}
+
+.single-product .product-single-main .container .woocommerce-tabs-inner .tab-content .tab-pane p{
+  text-align: justify;
+}
+
 .single-product .product-single-main .menu-single-product {
   margin-bottom: 15px;
 }
