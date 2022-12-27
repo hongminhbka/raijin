@@ -11176,6 +11176,7 @@ ul.nav-tabs > li.active > a {
 .wpcf7-select{
   padding: 15px;
   position: relative;
+  font-size: 18px;
 }
 
 .wpcf7-select::after {
