@@ -28,23 +28,9 @@
    <article id="post-<?php echo esc_attr(get_the_ID()); ?>" <?php post_class('post'); ?>>
       <div class="post-thumbnail">
          <?php the_post_thumbnail( $thumbnail, array( 'alt' => get_the_title() ) ); ?>
-         <div class="post-category">
-            <?php 
-               $text = '';
-               foreach((get_the_category()) as $category){
-                  $text = $text . '<a href="' . esc_url( get_category_link( $category->term_id ) ) . '">' . esc_html( $category->name ) . '</a>';                  
-               }
-               echo $text;
-            ?>
-         </div>
       </div>   
-
       <div class="entry-content">
-         
-         <div class="content-inner">
-            <div class="entry-meta">
-               <?php vizeon_posted_on(); ?>
-            </div> 
+         <div class="content-inner"> 
             <h2 class="entry-title"><a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark"><?php the_title() ?></a></h2>
             <div class="entry-description">
                <?php echo vizeon_limit_words( $excerpt_words, get_the_excerpt(), get_the_content() ); ?>
