@@ -11169,3 +11169,19 @@ ul.nav-tabs > li.active > a {
   width: 93%;
 }
 
+.full-width{
+  width: 100%;
+}
+
+.wpcf7-select{
+  padding: 15px;
+  position: relative;
+}
+
+.wpcf7-select::after {
+  content: "▼";
+  font-size: 1rem;
+  top: 6px;
+  right: 10px;
+  position: absolute;
+}
