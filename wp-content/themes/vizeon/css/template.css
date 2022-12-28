@@ -7533,6 +7533,10 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
   position: relative;
 }
 
+.post .post-thumbnail img{
+  border-radius: 12px;
+}
+
 .post .post-thumbnail iframe {
   width: 100%;
   min-height: 350px;
