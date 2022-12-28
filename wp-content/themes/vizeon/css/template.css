@@ -9855,6 +9855,7 @@ body.error404 .header-default {
 .content-page-index .post-masonry-index .post .entry-content {
   padding: 25px;
   border: 1px solid #dee2e6;
+  border-top: none;
 }
 
 .content-page-index .post-masonry-index .post.sticky .entry-content {
