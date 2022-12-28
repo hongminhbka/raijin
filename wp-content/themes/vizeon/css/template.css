@@ -7534,8 +7534,14 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 }
 
 .post .post-thumbnail img{
-  border-radius: 12px;
-  min-height: 250px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+  height: 250px;
+}
+
+.home-page .post .post-thumbnail img{
+  border-bottom-right-radius: 12px;
+  border-bottom-left-radius: 12px;
 }
 
 .post .post-thumbnail iframe {
