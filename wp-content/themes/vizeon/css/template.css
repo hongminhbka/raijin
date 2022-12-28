@@ -7535,7 +7535,7 @@ ul.gva-my-account-menu > li > a:hover:after, ul.gva-my-account-menu > li > a:act
 
 .post .post-thumbnail img{
   border-radius: 12px;
-  min-height: 190px;
+  min-height: 250px;
 }
 
 .post .post-thumbnail iframe {
