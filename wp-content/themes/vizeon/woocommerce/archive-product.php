@@ -142,18 +142,7 @@ $woo_display = vizeon_display_modes_value();
             </div>
             <div class="shop-loop-container">
               <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
-                <div class="woocommerce-filter clearfix">
-                  <?php
-                  /**
-                   * woocommerce_before_shop_loop hook
-                   *
-                   * @hooked woocommerce_result_count - 20
-                   * @hooked woocommerce_catalog_ordering - 30
-                   */
-                  do_action('woocommerce_before_shop_loop');
-                  ?>
-                </div>
-
+                
                 <?php do_action('vizeon_woocommerce_active_filter');  ?>
 
                 <?php woocommerce_product_loop_start(); ?>
@@ -233,18 +222,7 @@ $woo_display = vizeon_display_modes_value();
           <?php woocommerce_product_subcategories(); ?> -->
           <?php if (have_posts()) : ?>
             <div class="shop-loop-container">
-              <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">
-                <!-- <div class="woocommerce-filter clearfix">
-                  <?php
-                  /**
-                   * woocommerce_before_shop_loop hook
-                   *
-                   * @hooked woocommerce_result_count - 20
-                   * @hooked woocommerce_catalog_ordering - 30
-                   */
-                  do_action('woocommerce_before_shop_loop');
-                  ?>
-                </div> -->
+              <div class="gvawooaf-before-products layout-<?php echo esc_attr($woo_display) ?>">                
 
                 <?php do_action('vizeon_woocommerce_active_filter');  ?>
 
