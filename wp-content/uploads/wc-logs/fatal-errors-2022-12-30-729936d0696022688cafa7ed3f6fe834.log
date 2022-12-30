@@ -1,0 +1,90 @@
+2022-12-30T14:05:30+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/managers/widgets.php(351): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/common/modules/ajax/m in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:05:32+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:05:32+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:05:42+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:05:51+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:06:08+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:06:16+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:07:30+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:46:51+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
+2022-12-30T14:48:53+00:00 CRITICAL Uncaught Error: Class 'Elementor\Scheme_Color' not found in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php:285
+Stack trace:
+#0 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(2325): GVAElement_Icon_Box_Classic->_register_controls()
+#1 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(496): Elementor\Controls_Stack->init_controls()
+#2 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/widget-base.php(177): Elementor\Controls_Stack->get_stack()
+#3 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/includes/base/controls-stack.php(300): Elementor\Widget_Base->get_stack()
+#4 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php(120): Elementor\Controls_Stack->get_controls()
+#5 /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/elementor/core/files/css/global-css.php( in /home/skymap_wp/raijin.howizbiz.com/wp-content/plugins/vizeon-themer/elementor/elements/gva-icon-box-classic.php on line 285
+
