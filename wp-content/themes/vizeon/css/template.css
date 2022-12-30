@@ -2921,7 +2921,7 @@ ul.gva-nav-menu > li > a {
   display: inline-block;
 }
 
-@media (max-width: 1199.98px) {
+@media (max-width: 1024px) {
   ul.gva-nav-menu > li > a {
     padding-left: 7px;
     padding-right: 7px;
