@@ -7777,6 +7777,11 @@ div[class*="col-md-6"] .post-thumbnail iframe, div[class*="col-md-4"] .post-thum
   height: auto;
 }
 
+.single.single-post .post .entry-content .content-inner img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 .single.single-post #wp-content > article.post .entry-title {
   margin-top: 40px;
   font-size: 28px;
