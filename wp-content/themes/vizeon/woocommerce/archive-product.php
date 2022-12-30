@@ -78,47 +78,18 @@ $woo_display = vizeon_display_modes_value();
             <div class="container">
               <h2 class="question">Bạn đang tìm sản phẩm cho xe gì</h2>
               <div class="question-description">Raijin có đủ sản phẩm cho tất cả các dòng xe</div>
-              <div class="row my-2">
-                <div class="col-xs-1	col-sm-6 col-md-3	col-lg-3">
-                  <a href="/san-pham/honda">
-                    <button type="button" href="/honda" style=" width: 100%;
-                      height: 42px;
-                      border: 1px solid #596481;
-                      color: #596481;
-                      background-color: #ffffff;
-                      border-radius: 5px;" class="my-2">Honda
-                    </button>
-                  </a>
+              <div class="row filter-theo-hang">
+                <div class="col-xs-1 col-sm-6 col-md-3	col-lg-3">
+                  <a href="/san-pham/honda">Honda</a>
                 </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <a href="/san-pham/yamaha">
-                    <button type="button" style="width: 100%;
-                  height: 42px;
-                  border: 1px solid #596481;
-                  color: #596481;
-                  background-color: #ffffff;
-                  border-radius: 5px;" class="my-2">Yamaha</button>
-                  </a>
+                <div class="col-xs-1 col-sm-6	col-md-3 col-lg-3">
+                  <a href="/san-pham/yamaha">Yamaha</a>
                 </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <a href="/san-pham/yamaha">
-                    <button type="button" style="    width: 100%;
-                    height: 42px;
-                    border: 1px solid #596481;
-                    color: #596481;
-                    background-color: #ffffff;
-                    border-radius: 5px;" class="my-2">Piaggio</button>
-                  </a>
+                <div class="col-xs-1 col-sm-6	col-md-3 col-lg-3">
+                  <a href="/san-pham/yamaha">Piaggio</a>
                 </div>
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
-                  <a href="/san-pham/khac">
-                    <button type="button" style="    width: 100%;
-                    height: 42px;
-                    border: 1px solid #596481;
-                    color: #596481;
-                    background-color: #ffffff;
-                    border-radius: 5px;" class="my-2">Xe hãng khác</button>
-                  </a>
+                <div class="col-xs-1 col-sm-6	col-md-3 col-lg-3">
+                  <a href="/san-pham/khac">Xe hãng khác</a>
                 </div>
               </div>
             </div>

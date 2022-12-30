@@ -11225,3 +11225,12 @@ ul.nav-tabs > li.active > a {
   line-height: 24px;
   color: #2E3A5B;
 }
+
+.woocommerce-page .filter-theo-hang a button{
+  width: 100%;
+  height: 42px;
+  border: 1px solid #596481;
+  color: #596481;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
