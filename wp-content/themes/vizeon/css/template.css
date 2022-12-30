@@ -11096,7 +11096,7 @@ ul.nav-tabs > li.active > a {
 .woocommerce .grid-view .product-block {
   padding: 20px;
   border: 1px solid #E9EAEA;
-  margin-bottom: 10px 15px;
+  margin: 10px 15px;
 }
 
 .woocommerce .grid-view .product-block .product-meta .shop-loop-title,
