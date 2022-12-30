@@ -76,28 +76,10 @@ $woo_display = vizeon_display_modes_value();
           <?php woocommerce_product_subcategories(); ?>
           <?php if (have_posts()) : ?>
             <div class="container">
-              <div style="
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 600;
-                font-size: 32px;
-                line-height: 40px;
-                color: #2E3A5B
-                ">
-                Bạn đang tìm sản phẩm cho xe gì
-              </div>
-              <div class="my-3" style="
-                font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 24px;
-                color: #2E3A5B;
-                ">
-                Raijin có đủ sản phẩm cho tất cả các dòng xe
-              </div>
+              <h2 class="question">Bạn đang tìm sản phẩm cho xe gì</h2>
+              <div class="question-description">Raijin có đủ sản phẩm cho tất cả các dòng xe</div>
               <div class="row my-2">
-                <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
+                <div class="col-xs-1	col-sm-6 col-md-3	col-lg-3">
                   <a href="/san-pham/honda">
                     <button type="button" href="/honda" style=" width: 100%;
                       height: 42px;
@@ -110,7 +92,7 @@ $woo_display = vizeon_display_modes_value();
                 </div>
                 <div class="col-xs-1	col-sm-6	col-md-3	col-lg-3">
                   <a href="/san-pham/yamaha">
-                    <button type="button" style="    width: 100%;
+                    <button type="button" style="width: 100%;
                   height: 42px;
                   border: 1px solid #596481;
                   color: #596481;
