@@ -7773,6 +7773,10 @@ div[class*="col-md-6"] .post-thumbnail iframe, div[class*="col-md-4"] .post-thum
   text-align: justify;
 }
 
+.single.single-post .post .post-thumbnail img {
+  height: auto;
+}
+
 .single.single-post #wp-content > article.post .entry-title {
   margin-top: 40px;
   font-size: 28px;

@@ -30,28 +30,14 @@
 	</div>	
 
    <?php if ( is_single() ){ ?>
-      <h1 class="entry-title"><?php echo the_title() ?></h1>
-      <div class="entry-meta">
-         <?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) ){ ?>
-            <span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'vizeon' ) ); ?></span>
-            <span class="line"></span>
-         <?php } ?>
-         <?php vizeon_posted_on(); ?>
-      </div> 
+      <h1 class="entry-title"><?php echo the_title() ?></h1>       
    <?php } ?>
 
 	<div class="entry-content">
 		<div class="content-inner">
 
 			<?php if(!is_single()){ ?>
-	         <h2 class="entry-title"><a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark"><?php the_title() ?></a></h2>
-            <div class="entry-meta">
-              <?php if ( in_array( 'category', get_object_taxonomies( get_post_type() ) ) ){ ?>
-                  <span class="cat-links"><?php echo get_the_category_list( _x( ', ', 'Used between list items, there is a space after the comma.', 'vizeon' ) ); ?></span>
-                  <span class="line"></span>
-               <?php } ?>
-               <?php vizeon_posted_on(); ?>
-            </div> 
+	         <h2 class="entry-title"><a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark"><?php the_title() ?></a></h2>             
 	      <?php } ?>	
 
 			<?php if(is_single()){
